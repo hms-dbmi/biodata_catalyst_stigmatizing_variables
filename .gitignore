@@ -4,3 +4,4 @@
 .idea
 .project
 *data_dictionary.csv*
+*stig_vars.tsv*
