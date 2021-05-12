@@ -1,3 +1,6 @@
+import re
+import pandas as pd
+
 def check_simplified_name(varlist, multiindex_df, exclude_vars=[]):
     stig_var_list = []
     excluded_var_list = []
