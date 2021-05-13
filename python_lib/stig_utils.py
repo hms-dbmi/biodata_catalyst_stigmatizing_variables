@@ -48,11 +48,12 @@ def go_through_df(var_list):
     df = pd.DataFrame(var_list, columns=['full name'])
     df['simple name'] = ''
     df['stigmatizing'] = ''
+    total = len(var_list)
     
     for i in range(df.shape[0]):
         simple_var = df['full name'][i].strip('\\').split('\\')[-1]
         df['simple name'][i] = simple_var
-        print("Is the following variable stigmatizing?")
+        print("Is the following variable stigmatizing?\t", i, "of", total)
         print("\n>>>>", simple_var, "<<<<\n")
         status = input('Type "yes" or "no". To display full variable, type "more": \n')
         if status == 'back':
