@@ -55,6 +55,13 @@ def go_through_df(var_list):
         print("Is the following variable stigmatizing?")
         print("\n>>>>", simple_var, "<<<<\n")
         status = input('Type "yes" or "no". To display full variable, type "more": \n')
+        if status == 'back':
+            i = i-1
+            simple_var = df['full name'][i].strip('\\').split('\\')[-1]
+            df['simple name'][i] = simple_var
+            print("Is the following variable stigmatizing?")
+            print("\n>>>>", simple_var, "<<<<\n")
+            status = input('Type "yes" or "no". To display full variable, type "more": \n')
         if status == 'more':
             print('\n>>>>', df['full name'][i], '<<<<\n')
             status = input('Type "yes" or "no": \n')
