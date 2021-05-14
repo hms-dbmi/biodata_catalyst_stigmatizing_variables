@@ -49,8 +49,21 @@ def go_through_df(var_list):
     df['simple name'] = ''
     df['stigmatizing'] = ''
     total = len(var_list)
+    stigs = []
+    nonstigs = []
     
     for i in range(df.shape[0]):
+        if df['full name'][i].strip('\\').split('\\')[-1] in stigs:
+            df['simple name'][i] = df['full name'][i].strip('\\').split('\\')[-1]
+            df['stigmatizing'][i] = 'y'
+            print("Already identified >", df['full name'][i].strip('\\').split('\\')[-1], "<, recording result", i+1, "of", total)
+            continue
+        elif df['full name'][i].strip('\\').split('\\')[-1] in nonstigs:
+            df['simple name'][i] = df['full name'][i].strip('\\').split('\\')[-1]
+            df['stigmatizing'][i] = 'n'
+            print("Already identified >", df['full name'][i].strip('\\').split('\\')[-1], "<, recording result", i+1, "of", total)
+            continue
+        
         result = info_loop(i, df, total)
         if len(result) == 1:
             result = info_loop(i-1, df, total)
@@ -59,6 +72,12 @@ def go_through_df(var_list):
             result = info_loop(i, df, total)
         df['simple name'][i] = result[1]
         df['stigmatizing'][i] = result[0]
+        if result[1] not in stigs and result[1] not in nonstigs:
+            if result[0] == 'y':
+                stigs.append(result[1])
+            elif result[0] == 'n':
+                nonstigs.append(result[1])
+            
         #simple_var = df['full name'][i].strip('\\').split('\\')[-1]
         #df['simple name'][i] = simple_var
         #print("Is the following variable stigmatizing?")
@@ -84,12 +103,12 @@ def info_loop(i, df, total):
     print("Is the following variable stigmatizing? ", i+1, "of", total)
     simple_var = df['full name'][i].strip('\\').split('\\')[-1]
     print("\n>>>>", simple_var, "<<<<\n")
-    status = input('Type "yes" or "no". To display full variable, type "more":\n')
+    status = input('Type "y" or "n". To display full variable, type "more":\n')
     if status == 'back':
         return [status]
     if status == 'more':
         print('\n>>>>', df['full name'][i], '<<<<\n')
-        status = input('Type "yes" or "no": \n')
+        status = input('Type "y" or "n": \n')
     return [status, simple_var]
     
     
