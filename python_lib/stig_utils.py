@@ -51,21 +51,48 @@ def go_through_df(var_list):
     total = len(var_list)
     
     for i in range(df.shape[0]):
-        simple_var = df['full name'][i].strip('\\').split('\\')[-1]
-        df['simple name'][i] = simple_var
-        print("Is the following variable stigmatizing?\t", i, "of", total)
-        print("\n>>>>", simple_var, "<<<<\n")
-        status = input('Type "yes" or "no". To display full variable, type "more": \n')
-        if status == 'back':
-            i = i-1
-            simple_var = df['full name'][i].strip('\\').split('\\')[-1]
-            df['simple name'][i] = simple_var
-            print("Is the following variable stigmatizing?")
-            print("\n>>>>", simple_var, "<<<<\n")
-            status = input('Type "yes" or "no". To display full variable, type "more": \n')
-        if status == 'more':
-            print('\n>>>>', df['full name'][i], '<<<<\n')
-            status = input('Type "yes" or "no": \n')
-        df['stigmatizing'][i] = status
+        result = info_loop(i, df, total)
+        if len(result) == 1:
+            result = info_loop(i-1, df, total)
+            df['simple name'][i-1] = result[1]
+            df['stigmatizing'][i-1] = result[0]
+            result = info_loop(i, df, total)
+        df['simple name'][i] = result[1]
+        df['stigmatizing'][i] = result[0]
+        #simple_var = df['full name'][i].strip('\\').split('\\')[-1]
+        #df['simple name'][i] = simple_var
+        #print("Is the following variable stigmatizing?")
+        #print("\n>>>>", simple_var, "<<<<\n")
+        #status = input('Type "yes" or "no". To display full variable, type "more": \n')
+        #if status == 'back':
+        #    i = i-1
+        #    simple_var = df['full name'][i].strip('\\').split('\\')[-1]
+        #    df['simple name'][i] = simple_var
+        #    print("Is the following variable stigmatizing?")
+        #    print("\n>>>>", simple_var, "<<<<\n")
+        #    status = input('Type "yes" or "no". To display full variable, type "more": \n')
+        #    i = i+1
+        #    
+        #if status == 'more':
+        #    print('\n>>>>', df['full name'][i], '<<<<\n')
+        #    status = input('Type "yes" or "no": \n')
+        #df['stigmatizing'][i] = status
         
     return df
+
+def info_loop(i, df, total):
+    print("Is the following variable stigmatizing? ", i+1, "of", total)
+    simple_var = df['full name'][i].strip('\\').split('\\')[-1]
+    print("\n>>>>", simple_var, "<<<<\n")
+    status = input('Type "yes" or "no". To display full variable, type "more":\n')
+    if status == 'back':
+        return [status]
+    if status == 'more':
+        print('\n>>>>', df['full name'][i], '<<<<\n')
+        status = input('Type "yes" or "no": \n')
+    return [status, simple_var]
+    
+    
+    
+    
+    
