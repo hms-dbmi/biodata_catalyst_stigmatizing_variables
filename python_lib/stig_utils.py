@@ -116,6 +116,9 @@ def validate_stig_vars(fullVariableDict, stigvars):
     need_removal = []
     for i in fullVariableDict:
         if i in stigvars:
-            print("Stigmatizing variable", i, "found in Open Access")
+            print("Stigmatizing variable\n>>>>", i, "<<<<\nfound in Open Access")
             need_removal.append(i)
+    if len(need_removal)==0:
+        print("No stigmatizing variables found in Open Access. Passed validation test.")
+        need_removal = None
     return need_removal
