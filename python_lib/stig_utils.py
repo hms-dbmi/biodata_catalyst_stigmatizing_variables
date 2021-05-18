@@ -112,6 +112,10 @@ def info_loop(i, df, total):
     return [status, simple_var]
     
     
-    
-    
-    
+def validate_stig_vars(fullVariableDict, stigvars):
+    need_removal = []
+    for i in fullVariableDict:
+        if i in stigvars:
+            print("Stigmatizing variable", i, "found in Open Access")
+            need_removal.append(i)
+    return need_removal
