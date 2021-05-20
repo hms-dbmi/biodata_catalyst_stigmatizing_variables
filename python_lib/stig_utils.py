@@ -1,5 +1,7 @@
 import re
 import pandas as pd
+import os.path
+from os import path
 
 def check_simplified_name(varlist, multiindex_df, exclude_vars=[]):
     stig_var_list = []
@@ -26,7 +28,14 @@ def regex_filter_out(stig_vars, terms_to_filter):
     list_difference = [item for item in stig_vars if item not in filter_out]
     return list_difference
 
-def manual_check(final_vars, ex_vars=None):
+def manual_check(final_vars, out_file, ex_vars=None):
+    while path.exists(out_file):
+        print(out_file, "exists. Would you like rename the output file or exit?")
+        res = input("Type 'r' to rename or 'e' for exit:\n")
+        if res == 'r':
+            out_file = input("Type new output file:\n")
+        elif res == 'e':
+            return None
     print("Continue to review of", len(final_vars), 'variables?')
     status = input("y/n: ")
     if status == "y":
