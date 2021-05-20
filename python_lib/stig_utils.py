@@ -2,6 +2,7 @@ import re
 import pandas as pd
 import os.path
 from os import path
+from IPython.display import clear_output
 
 def check_simplified_name(varlist, multiindex_df, exclude_vars=[]):
     stig_var_list = []
@@ -30,7 +31,7 @@ def regex_filter_out(stig_vars, terms_to_filter):
 
 def manual_check(final_vars, out_file, ex_vars=None):
     while path.exists(out_file):
-        print(out_file, "exists. Would you like rename the output file or exit?")
+        print("Output file already exists. Would you like rename the output file or exit?")
         res = input("Type 'r' to rename or 'e' for exit:\n")
         if res == 'r':
             out_file = input("Type new output file:\n")
@@ -40,6 +41,8 @@ def manual_check(final_vars, out_file, ex_vars=None):
     status = input("y/n: ")
     if status == "y":
         stig_vars_df = go_through_df(final_vars)
+        stig_vars_df.to_csv(out_file, sep='\t')
+        print("\n \nSTIGMATIZING VARIABLE RESULTS SAVED TO:\t", out_file)
     else:
         stig_vars_df = None
         
@@ -48,9 +51,18 @@ def manual_check(final_vars, out_file, ex_vars=None):
         ex_var_review = input('Type "yes" or "no": \n')
         if ex_var_review == 'yes':
             ex_vars_df = go_through_df(ex_vars)
+            ex_out_file = out_file.replace('.tsv', '_excluded.tsv')
+            ex_vars_df.to_csv(ex_out_file, sep='\t')
+            print("\n \nEXCLUDED VARIABLE RESULTS SAVED TO:\t", ex_out_file)
     else:
         ex_vars_df = None
-        
+    
+    print("Clear cell output and display pandas dataframe?")
+    clear = input('Type "y" or "n": \n')
+    if clear == 'y':
+        clear_output()
+    #print('\n \n \n \nFINAL OUTPUT:\n')
+    display(stig_vars_df)
     return stig_vars_df, ex_vars_df
 
 def go_through_df(var_list):
