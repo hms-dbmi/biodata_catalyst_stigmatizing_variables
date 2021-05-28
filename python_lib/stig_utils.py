@@ -74,12 +74,12 @@ def go_through_df(var_list):
     nonstigs = []
     
     for i in range(df.shape[0]):
-        if df['full name'][i].strip('\\').split('\\')[-1] in stigs:
+        if df['full name'][i].strip('\\').split('\\')[-1].lower() in stigs:
             df['simple name'][i] = df['full name'][i].strip('\\').split('\\')[-1]
             df['stigmatizing'][i] = 'y'
             print("Already identified >", df['full name'][i].strip('\\').split('\\')[-1], "<, recording result", i+1, "of", total)
             continue
-        elif df['full name'][i].strip('\\').split('\\')[-1] in nonstigs:
+        elif df['full name'][i].strip('\\').split('\\')[-1].lower() in nonstigs:
             df['simple name'][i] = df['full name'][i].strip('\\').split('\\')[-1]
             df['stigmatizing'][i] = 'n'
             print("Already identified >", df['full name'][i].strip('\\').split('\\')[-1], "<, recording result", i+1, "of", total)
@@ -95,9 +95,9 @@ def go_through_df(var_list):
         df['stigmatizing'][i] = result[0]
         if result[1] not in stigs and result[1] not in nonstigs:
             if result[0] == 'y':
-                stigs.append(result[1])
+                stigs.append(result[1].lower())
             elif result[0] == 'n':
-                nonstigs.append(result[1])
+                nonstigs.append(result[1].lower())
             
         #simple_var = df['full name'][i].strip('\\').split('\\')[-1]
         #df['simple name'][i] = simple_var
