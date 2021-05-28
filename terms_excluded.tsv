@@ -37,3 +37,4 @@ urinalysis: albumin	race	Urinalysis results are not stigmatizing - often capture
 brace	race	Variables with this term are not stigmatizing
 contraceptive	race	Variables with this term are not stigmatizing
 single sup	single	Variables with this term are not stigmatizing
+st depression ge 100	depression	Electrocardiograph measurements are not stigmatizing
