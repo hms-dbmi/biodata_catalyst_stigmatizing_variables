@@ -1,0 +1,50 @@
+Terms to exclude	Captured by keyword	Reason for exclusion
+race and sex adjusted	race	Variables can be adjusted for confounding variables like race and sex, this is not stigmatizing
+hives	HIV	Hives is not a stigmatizing condition/disease
+nsaids	AIDS	Use of non-steroidal anti-inflammatory drugs is not stigmatizing
+chlamydia pneumoniae	chlamydia	Chlamydia pneumoniae causes a respiratory tract infection
+walking aid	AIDS	Use of walking aids is not stigmatizing
+shiver	HIV	Shivering is not stigmatizing
+health aids	AIDS	Use of/support of health aids is not stigmatizing
+herpes zoster	herpes	Herpes zoster causes shingles, which is not stigmatizing
+heart disease	genital	Heart disease is not stigmatizing - often captured by term "Congenital"
+archive	HIV	Archives are not stigmatizing
+hispanic	panic	Hispanic is not stigmatizing
+minn code	depression	Minnesota code for electrocardiograph measurements is not stigmatizing - often captured by term "ST junction and segmental depression"
+ecg	depression	Electrocardiograph measurements are not stigmatizing - often captured by term "ST junction and segmental depression"
+instrumental	mental	Variables with this term are not stigmatizing
+supplemental	mental	Variables with this term are not stigmatizing
+segmental	mental	Variables with this term are not stigmatizing
+electrocardiograph	depression	Electrocardiograph measurements are not stigmatizing - often captured by term "ST junction and segmental depression"
+minnesota code	depression	Minnesota code for electrocardiograph measurements is not stigmatizing - often captured by term "ST junction and segmental depression"
+environmental	mental	Variables with this term are not stigmatizing
+mini-mental state exam	mental	Variables with this term are not stigmatizing
+coffee or tea	stimulant	Variables with this term are not stigmatizing
+change in ability to	ability	Variables with this term are not stigmatizing
+how ability to	ability	Variables with this term are not stigmatizing
+ability to	ability	Variables with this term are not stigmatizing
+variability	ability	Variables with this term are not stigmatizing
+gradability	ability	Variables with this term are not stigmatizing
+gradeability	ability	Variables with this term are not stigmatizing
+reliability	ability	Variables with this term are not stigmatizing
+acceptability	ability	Variables with this term are not stigmatizing
+irritability	ability	Variables with this term are not stigmatizing
+stability	ability	Variables with this term are not stigmatizing
+leg ability	ability	Variables with this term are not stigmatizing
+physical ability	ability	Variables with this term are not stigmatizing
+probability	ability	Variables with this term are not stigmatizing
+single tennis	single	Variables with this term are not stigmatizing
+single ventricular	single	Variables with this term are not stigmatizing
+single nodule	single	Variables with this term are not stigmatizing
+single chair	single	Variables with this term are not stigmatizing
+urinalysis: albumin	race	Urinalysis results are not stigmatizing - often captured by term "trace = "
+brace	race	Variables with this term are not stigmatizing
+thoracentesis	race	Variables with this term are not stigmatizing
+paracentral	race	Variables with this term are not stigmatizing
+extracellular	race	Variables with this term are not stigmatizing
+intracellular	race	Variables with this term are not stigmatizing
+contraceptive	race	Variables with this term are not stigmatizing
+traced	race	Variables with this term are not stigmatizing
+single sup	single	Variables with this term are not stigmatizing
+st depression ge	depression	Electrocardiograph measurements are not stigmatizing
+segment depression	depression	Electrocardiograph measurements are not stigmatizing

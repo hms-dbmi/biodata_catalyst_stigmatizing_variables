@@ -1,5 +1,8 @@
 import re
 import pandas as pd
+import os.path
+from os import path
+from IPython.display import clear_output
 
 def check_simplified_name(varlist, multiindex_df, exclude_vars=[]):
     stig_var_list = []
@@ -26,11 +29,20 @@ def regex_filter_out(stig_vars, terms_to_filter):
     list_difference = [item for item in stig_vars if item not in filter_out]
     return list_difference
 
-def manual_check(final_vars, ex_vars=None):
+def manual_check(final_vars, out_file, ex_vars=None):
+    while path.exists(out_file):
+        print("Output file already exists. Would you like rename the output file or exit?")
+        res = input("Type 'r' to rename or 'e' for exit:\n")
+        if res == 'r':
+            out_file = input("Type new output file:\n")
+        elif res == 'e':
+            return None
     print("Continue to review of", len(final_vars), 'variables?')
     status = input("y/n: ")
     if status == "y":
         stig_vars_df = go_through_df(final_vars)
+        stig_vars_df.to_csv(out_file, sep='\t')
+        print("\n \nSTIGMATIZING VARIABLE RESULTS SAVED TO:\t", out_file)
     else:
         stig_vars_df = None
         
@@ -39,9 +51,18 @@ def manual_check(final_vars, ex_vars=None):
         ex_var_review = input('Type "yes" or "no": \n')
         if ex_var_review == 'yes':
             ex_vars_df = go_through_df(ex_vars)
+            ex_out_file = out_file.replace('.tsv', '_excluded.tsv')
+            ex_vars_df.to_csv(ex_out_file, sep='\t')
+            print("\n \nEXCLUDED VARIABLE RESULTS SAVED TO:\t", ex_out_file)
     else:
         ex_vars_df = None
-        
+    
+    print("Clear cell output and display pandas dataframe?")
+    clear = input('Type "y" or "n": \n')
+    if clear == 'y':
+        clear_output()
+    #print('\n \n \n \nFINAL OUTPUT:\n')
+    display(stig_vars_df)
     return stig_vars_df, ex_vars_df
 
 def go_through_df(var_list):
@@ -53,12 +74,12 @@ def go_through_df(var_list):
     nonstigs = []
     
     for i in range(df.shape[0]):
-        if df['full name'][i].strip('\\').split('\\')[-1] in stigs:
+        if df['full name'][i].strip('\\').split('\\')[-1].lower() in stigs:
             df['simple name'][i] = df['full name'][i].strip('\\').split('\\')[-1]
             df['stigmatizing'][i] = 'y'
             print("Already identified >", df['full name'][i].strip('\\').split('\\')[-1], "<, recording result", i+1, "of", total)
             continue
-        elif df['full name'][i].strip('\\').split('\\')[-1] in nonstigs:
+        elif df['full name'][i].strip('\\').split('\\')[-1].lower() in nonstigs:
             df['simple name'][i] = df['full name'][i].strip('\\').split('\\')[-1]
             df['stigmatizing'][i] = 'n'
             print("Already identified >", df['full name'][i].strip('\\').split('\\')[-1], "<, recording result", i+1, "of", total)
@@ -74,9 +95,9 @@ def go_through_df(var_list):
         df['stigmatizing'][i] = result[0]
         if result[1] not in stigs and result[1] not in nonstigs:
             if result[0] == 'y':
-                stigs.append(result[1])
+                stigs.append(result[1].lower())
             elif result[0] == 'n':
-                nonstigs.append(result[1])
+                nonstigs.append(result[1].lower())
             
         #simple_var = df['full name'][i].strip('\\').split('\\')[-1]
         #df['simple name'][i] = simple_var
