@@ -133,13 +133,26 @@ def info_loop(i, df, total):
     return [status, simple_var]
     
     
-def validate_stig_vars(fullVariableDict, stigvars):
+def validate_stig_vars(fullVariableDict, input_file, output_file):
+    while path.exists(output_file):
+        print("Output file already exists. Would you like rename the output file or exit?")
+        res = input("Type 'r' to rename or 'e' for exit:\n")
+        if res == 'r':
+            output_file = input("Type new output file:\n")
+        elif res == 'e':
+            return None
+    stigvars = pd.read_csv(input_file, header=None, sep='\t')
+    stigvarlist = [i for i in stigvars[0]]
     need_removal = []
     for i in fullVariableDict:
-        if i in stigvars:
+        if i in stigvarlist:
             print("Stigmatizing variable\n>>>>", i, "<<<<\nfound in Open Access")
             need_removal.append(i)
     if len(need_removal)==0:
         print("No stigmatizing variables found in Open Access. Passed validation test.")
         need_removal = None
+    else:
+        print(len(need_removal), "stigmatizing variables found in Open Access.")
+        print("Saving variables to be removed to:", output_file)
+        
     return need_removal
