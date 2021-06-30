@@ -61,7 +61,6 @@ def manual_check(final_vars, out_file, ex_vars=None):
     clear = input('Type "y" or "n": \n')
     if clear == 'y':
         clear_output()
-    #print('\n \n \n \nFINAL OUTPUT:\n')
     display(stig_vars_df)
     return stig_vars_df, ex_vars_df
 
@@ -98,25 +97,6 @@ def go_through_df(var_list):
                 stigs.append(result[1].lower())
             elif result[0] == 'n':
                 nonstigs.append(result[1].lower())
-            
-        #simple_var = df['full name'][i].strip('\\').split('\\')[-1]
-        #df['simple name'][i] = simple_var
-        #print("Is the following variable stigmatizing?")
-        #print("\n>>>>", simple_var, "<<<<\n")
-        #status = input('Type "yes" or "no". To display full variable, type "more": \n')
-        #if status == 'back':
-        #    i = i-1
-        #    simple_var = df['full name'][i].strip('\\').split('\\')[-1]
-        #    df['simple name'][i] = simple_var
-        #    print("Is the following variable stigmatizing?")
-        #    print("\n>>>>", simple_var, "<<<<\n")
-        #    status = input('Type "yes" or "no". To display full variable, type "more": \n')
-        #    i = i+1
-        #    
-        #if status == 'more':
-        #    print('\n>>>>', df['full name'][i], '<<<<\n')
-        #    status = input('Type "yes" or "no": \n')
-        #df['stigmatizing'][i] = status
         
     return df
 
@@ -133,6 +113,32 @@ def info_loop(i, df, total):
     return [status, simple_var]
     
     
-    
-    
-    
+def validate_stig_vars(fullVariableDict, input_file, output_file):
+    if path.exists(input_file) == False:
+        print("Input file does not exist.")
+        return None
+    while path.exists(output_file):
+        print("Output file already exists. Would you like rename the output file or exit?")
+        res = input("Type 'r' to rename or 'e' for exit:\n")
+        if res == 'r':
+            output_file = input("Type new output file:\n")
+        elif res == 'e':
+            return None
+    stigvars = pd.read_csv(input_file, header=None, sep='\t')
+    stigvarlist = [i for i in stigvars[0]]
+    need_removal = []
+    for i in fullVariableDict:
+        if i in stigvarlist:
+            print("Stigmatizing variable\n>>>>", i, "<<<<\nfound in Open Access")
+            need_removal.append(i)
+    if len(need_removal)==0:
+        print("No stigmatizing variables found in Open Access. Passed validation test.")
+        return None
+    else:
+        print(len(need_removal), "stigmatizing variables found in Open Access.")
+        print("Saving variables to be removed to:", output_file)
+        results_df = pd.DataFrame(need_removal, columns=["Variables to remove"])
+        results_df.reset_index(drop=True, inplace=True)
+        results_df.to_csv(output_file, sep='\t', header=False, index=False)
+        print("Success.")
+    return results_df
