@@ -54,3 +54,16 @@ grade ability	ability	Variables with this term are not stigmatizing
 knudson	race	Variables with this term are not stigmatizing
 single item	single	Variables with this term are not stigmatizing
 maids	aids	Variables with this term are not stigmatizing
+sample use	sample	Variables with this term are not stigmatizing
+urine	sample	Urine sample information is not stigmatizing
+albumin	sample	Albumin sample information is not stigmatizing
+creatinine	sample	Creatinine sample information is not stigmatizing
+cortisol	sample	Cortisol sample information is not stigmatizing
+saliva	sample	Saliva sample information is not stigmatizing
+raynaud	subject	Raynaud's is not a stigmatizing condition
+activity that subject had a lot of difficulty doing	subject	Part of a form that is not stigmatizing
+serum	sample	Serum sample information is not stigmatizing
+whole blood	sample	Whole blood sample information is not stigmatizing
+plaque/shadowing	sample	Plaque/shadowing information is not stigmatizing
+amplitude	sample	Amplitude information is not stigmatizing
+fatty acid	sample	Fatty acid sample information is not stigmatizing
