@@ -108,3 +108,8 @@ spinsterhood	Legal status
 ethnicity	Legal status
 race	Legal status
 surrogate	Legal status
+subject	Identifier
+sample	Identifier
+cohort	Identifier
+subject_id	Identifier
+identifier	Identifier
