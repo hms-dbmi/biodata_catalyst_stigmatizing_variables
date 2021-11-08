@@ -111,5 +111,8 @@ surrogate	Legal status
 subject	Identifier
 sample	Identifier
 cohort	Identifier
-subject_id	Identifier
+family id	Identifier
 identifier	Identifier
+twin id	Identifier
+participant id	Identifier
+cohort id	Identifier

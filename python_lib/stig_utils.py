@@ -29,7 +29,7 @@ def regex_filter_out(stig_vars, terms_to_filter):
     list_difference = [item for item in stig_vars if item not in filter_out]
     return list_difference
 
-def manual_check(final_vars, out_file, ex_vars=None):
+def manual_check(final_vars, out_file, prev_file=None, ex_vars=None):
     while path.exists(out_file):
         print("Output file already exists. Would you like rename the output file or exit?")
         res = input("Type 'r' to rename or 'e' for exit:\n")
@@ -40,7 +40,7 @@ def manual_check(final_vars, out_file, ex_vars=None):
     print("Continue to review of", len(final_vars), 'variables?')
     status = input("y/n: ")
     if status == "y":
-        stig_vars_df = go_through_df(final_vars)
+        stig_vars_df = go_through_df(final_vars, prev_file)
         stig_vars_df.to_csv(out_file, sep='\t')
         print("\n \nSTIGMATIZING VARIABLE RESULTS SAVED TO:\t", out_file)
     else:
@@ -64,15 +64,32 @@ def manual_check(final_vars, out_file, ex_vars=None):
     display(stig_vars_df)
     return stig_vars_df, ex_vars_df
 
-def go_through_df(var_list):
+def go_through_df(var_list, prev_file):
     df = pd.DataFrame(var_list, columns=['full name'])
     df['simple name'] = ''
     df['stigmatizing'] = ''
     total = len(var_list)
     stigs = []
     nonstigs = []
+    if prev_file is not None:
+        prev = pd.read_csv(prev_file, delimiter='\t', index_col=0)
+        prev_stig = list(prev[prev.stigmatizing == 'y']['full name'])
+        prev_nonstig = list(prev[prev.stigmatizing == 'n']['full name'])
+    else:
+        prev_stig = []
+        prev_nonstig = []
     
     for i in range(df.shape[0]):
+        if df['full name'][i] in prev_stig:
+            df['simple name'][i] = df['full name'][i].strip('\\').split('\\')[-1]
+            df['stigmatizing'][i] = 'y'
+            print("Using results from previous file, yes for >", df['full name'][i].strip('\\').split('\\')[-1], "<, recording result", i+1, "of", total)
+            continue
+        if df['full name'][i] in prev_nonstig:
+            df['simple name'][i] = df['full name'][i].strip('\\').split('\\')[-1]
+            df['stigmatizing'][i] = 'n'
+            print("Using results from previous file, no for >", df['full name'][i].strip('\\').split('\\')[-1], "<, recording result", i+1, "of", total)
+            continue
         if df['full name'][i].strip('\\').split('\\')[-1].lower() in stigs:
             df['simple name'][i] = df['full name'][i].strip('\\').split('\\')[-1]
             df['stigmatizing'][i] = 'y'
