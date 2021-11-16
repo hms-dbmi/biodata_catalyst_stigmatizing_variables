@@ -19,17 +19,25 @@ def check_simplified_name(varlist, multiindex_df, exclude_vars=[]):
                         stig_var_list.append(multiindex_df['name'][i])
     return stig_var_list, excluded_var_list
 
-def regex_filter_out(stig_vars, terms_to_filter):
+def regex_filter(stig_vars, terms_to_filter, terms_to_filter_out):
     filter_out = []
+    keep_in = []
     for i in stig_vars:
         simple_var = i.strip('\\').split('\\')[-1]
         for term in terms_to_filter:
             if re.search(term, simple_var, re.IGNORECASE):
+                keep_in.append(i)
+        for term in terms_to_filter_out:
+            if re.search(term, simple_var, re.IGNORECASE):
                 filter_out.append(i)
-    list_difference = [item for item in stig_vars if item not in filter_out]
-    return list_difference
+    keep_list = [item for item in stig_vars if item in keep_in]
+    print("Found", len(keep_list), "that are stigmatizing")
+    full_list = filter_out+keep_list
+    list_difference = [item for item in stig_vars if item not in full_list]
+    print(len(list_difference), "still need review")
+    return keep_list, list_difference
 
-def manual_check(final_vars, out_file, prev_file=None, ex_vars=None):
+def manual_check(final_vars, out_file, keep_vars, prev_file=None, ex_vars=None):
     while path.exists(out_file):
         print("Output file already exists. Would you like rename the output file or exit?")
         res = input("Type 'r' to rename or 'e' for exit:\n")
@@ -39,8 +47,20 @@ def manual_check(final_vars, out_file, prev_file=None, ex_vars=None):
             return None
     print("Continue to review of", len(final_vars), 'variables?')
     status = input("y/n: ")
+    
+    if len(keep_vars) > 0:
+        total = len(keep_vars)
+        df = pd.DataFrame(keep_vars, columns=['full name'])
+        df['simple name'] = ''
+        df['stigmatizing'] = ''
+        for i in range(df.shape[0]):
+            df['simple name'][i] = df['full name'][i].strip('\\').split('\\')[-1]
+            df['stigmatizing'][i] = 'y'
+            print("Stigmatizing:", df['full name'][i].strip('\\').split('\\')[-1], "<, recording result", i+1, "of", total, "already identified as stigmatizing")
+    
     if status == "y":
         stig_vars_df = go_through_df(final_vars, prev_file)
+        stig_vars_df = stig_vars_df.append(df, ignore_index=True)
         stig_vars_df.to_csv(out_file, sep='\t')
         print("\n \nSTIGMATIZING VARIABLE RESULTS SAVED TO:\t", out_file)
     else:
