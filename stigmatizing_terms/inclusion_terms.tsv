@@ -18,6 +18,8 @@ cocaine
 participant id
 family id
 cohort id
+subject id
+sample id
 twin id
 widowed
 anxiety
@@ -66,3 +68,7 @@ ILLITERACY
 bcp
 hrt
 hormone replacement therapy
+birth control pill
+Anti-depressants
+Antidepressants
+liquor
