@@ -116,3 +116,6 @@ identifier	Identifier
 twin id	Identifier
 participant id	Identifier
 cohort id	Identifier
+aric id	Identifier
+event id	Identifier
+draw id	Identifier
