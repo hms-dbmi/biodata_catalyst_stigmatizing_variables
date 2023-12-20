@@ -119,3 +119,21 @@ cohort id	Identifier
 aric id	Identifier
 event id	Identifier
 draw id	Identifier
+specimen_id	Identifier
+submitter_id	Identifier
+_genomic_sample_id	Identifier
+ID	Identifier
+HPV	Sexually transmitted disease
+pubic lice	Sexually transmitted disease
+syphilis	Sexually transmitted disease
+Trichomoniasis	Sexually transmitted disease
+CEC_ID	Identifier
+SHARE ID NUMBER	Identifier
+SUBJECT_ID	Identifier
+fake_STCOTRK	Identifier
+FAKE_STCOTRK	Identifier
+Father's Subject ID	Identifier
+Mother ID	Identifier
+Mother's Subject ID	Identifier
+SOURCE_SUBJECT_ID	Identifier
+SAMPLE_ID	Identifier
