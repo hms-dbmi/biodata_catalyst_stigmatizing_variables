@@ -9668,3 +9668,5 @@
 \genomic_sample_id\phs001368\
 \genomic_sample_id\phs001412\
 \genomic_sample_id\phs001416\
+\phs001961\SUBMITTER_ID\
+\phs001961\SPECIMEN_ID\
