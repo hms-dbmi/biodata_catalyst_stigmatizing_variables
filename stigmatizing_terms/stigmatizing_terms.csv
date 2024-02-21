@@ -1,0 +1,237 @@
+Keyword,Reason
+sex,Sexual history
+sexual,Sexual history
+intercourse,Sexual history
+copulation,Sexual history
+sex history,Sexual history
+sexually,Sexually transmitted disease
+coitus,Sexually transmitted disease
+pareunia,Sexually transmitted disease
+venery,Sexually transmitted disease
+chlamydia,Sexually transmitted disease
+herpes,Sexually transmitted disease
+HIV,Sexually transmitted disease
+pubic lice,Sexually transmitted disease
+trichomoniasis,Sexually transmitted disease
+progesterone,Sexual history
+genital,Sexual history
+gonorrhea,Sexually transmitted disease
+AIDS,Sexually transmitted disease
+syphilis,Sexually transmitted disease
+vagina,Sexual history
+estrogen,Sexual history
+testosterone,Sexual history
+androgens,Sexual history
+depression,Mental health
+anxiety,Mental health
+phobia,Mental health
+mental,Mental health
+psycho,Mental health
+emotional health,Mental health
+depressive,Mental health
+panic,Mental health
+schizophrenia,Mental health
+mental health,Mental health
+psychological,Mental health
+suicide,Mental health
+illicit,Illicit drug use
+abuse,Illicit drug use
+fentanyl,Illicit drug use
+ecstasy,Illicit drug use
+methamphetamine,Illicit drug use
+phencyclidine,Illicit drug use
+mushroom,Illicit drug use
+flakka,Illicit drug use
+central nervous system depressant,Illicit drug use
+khat,Illicit drug use
+loperamide,Illicit drug use
+stimulant,Illicit drug use
+street drug,Illicit drug use
+illegal,Illicit drug use
+cocaine,Illicit drug use
+LSD,Illicit drug use
+heroin,Illicit drug use
+angel dust,Illicit drug use
+salvia,Illicit drug use
+ayahuasca,Illicit drug use
+hallucinogen,Illicit drug use
+kratom,Illicit drug use
+dextromethorphan,Illicit drug use
+cannabinoid,Illicit drug use
+rohypnol,Illicit drug use
+roofies,Illicit drug use
+ketamine hydrochloride,Illicit drug use
+psilocybin,Illicit drug use
+krokodil,Illicit drug use
+bath salts,Illicit drug use
+DMT,Illicit drug use
+inhalant,Illicit drug use
+mescaline,Illicit drug use
+opioid,Illicit drug use
+gamma hydroxybutyrate,Illicit drug use
+bachelor,Intellectual ability/educational attainment
+phd,Intellectual ability/educational attainment
+intellectual,Intellectual ability/educational attainment
+acheivement,Intellectual ability/educational attainment
+ability,Intellectual ability/educational attainment
+education,Intellectual ability/educational attainment
+school,Intellectual ability/educational attainment
+master,Intellectual ability/educational attainment
+quotient,Intellectual ability/educational attainment
+intelligence,Intellectual ability/educational attainment
+disability,Intellectual ability/educational attainment
+attainment,Intellectual ability/educational attainment
+genetic iq,Intellectual ability/educational attainment
+villainage,Legal status
+citizenship,Legal status
+married,Legal status
+single,Legal status
+widowed,Legal status
+nonage,Legal status
+matrimony,Legal status
+civil union,Legal status
+bachelorhood,Legal status
+widowhood,Legal status
+nationality,Legal status
+identity,Legal status
+legal status,Legal status
+villeinage,Legal status
+marital,Legal status
+unmarried,Legal status
+divorces,Legal status
+minority,Legal status
+marriage,Legal status
+spousal,Legal status
+wedlock,Legal status
+spinsterhood,Legal status
+ethnicity,Legal status
+race,Legal status
+surrogate,Legal status
+subject,Identifier
+sample,Identifier
+cohort,Identifier
+family id,Identifier
+identifier,Identifier
+twin id,Identifier
+participant id,Identifier
+cohort id,Identifier
+aric id,Identifier
+event id,Identifier
+draw id,Identifier
+specimen_id,Identifier
+submitter_id,Identifier
+_genomic_sample_id,Identifier
+ID,Identifier
+HPV,Sexually transmitted disease
+Trichomoniasis,Sexually transmitted disease
+CEC_ID,Identifier
+SHARE ID NUMBER,Identifier
+SUBJECT_ID,Identifier
+fake_STCOTRK,Identifier
+FAKE_STCOTRK,Identifier
+Father's Subject ID,Identifier
+Mother ID,Identifier
+Mother's Subject ID,Identifier
+SOURCE_SUBJECT_ID,Identifier
+SAMPLE_ID,Identifier
+ID  Identifier,
+Chlamydia,
+Genital herpes,
+Gonorrhea,
+HIV,
+HPV,
+Pubic lice,
+Syphilis,
+Trichomoniasis,
+date,
+cost,
+bankruptcy,
+savings,
+pay,
+bills,
+estrogen,Sexual history
+progesterone,Sexual history
+testosterone,Sexual history
+de-identified aric subject id,Identifier
+de-identified aric participant id,Identifier
+Natural hormones in past year,
+MARITAL STATUS,
+HIGHEST GRADE OF SCHOOL COMPLETED,
+education of father,
+education of mother,
+highest degree or years of school,
+major accident or disaster,
+Major Depressive Episode Form,
+Neuropsychiatric Inventory Questionnaire,
+HEROIN,
+cocaine,
+participant id,
+family id,
+cohort id,
+subject id,
+sample id,
+twin id,
+widowed,
+anxiety,
+suicide,
+parents' education,
+highest degree,
+level of school,
+female hormone,
+reason you eat less,
+reason you eat more,
+ELISA plate id that sample was run on,
+felt everything done was effort,
+bothered by things that usually don't,
+could not get going,
+felt hopeful about future,
+marriage-like rel,
+race discriminated,
+sex pref discr,
+felt depressed,
+felt fearful,
+felt lonely,
+gender discriminated,
+purpose in life,
+ses discriminated,
+expect to reach educational goals,
+expect to reach marriage goals,
+expects to reach goal:in,
+happy,
+How do you feel about life as a whole,
+"Nervous, emotional or mental disorder",
+depression scale,
+attending school now,
+current smoking status,
+is subject in school now,
+subject ever used crack in life,
+"when lonely, there are people can talk to",
+marijuana,
+mental disorders,
+months married,
+ever drink beer,
+ever drink liquor,
+non-tricyclic antidepressants,
+discrimination form,
+LOW EDUCATION,
+ILLITERACY,
+bcp,
+hrt,
+hormone replacement therapy,
+birth control pill,
+Anti-depressants,
+Antidepressants,
+liquor,
+cost,
+bankruptcy,
+savings,
+pay,
+bills,
+Chlamydia,
+Genital herpes,
+Gonorrhea,
+HIV,
+HPV,
+Pubic lice,
+Syphilis,
+Trichomoniasis,
