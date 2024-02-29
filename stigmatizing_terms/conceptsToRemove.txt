@@ -16600,7 +16600,6 @@
 \phs000284\pht001902\phv00122015\age\
 \phs001143\pht005905\phv00375338\HEIGHT_CM\
 \phs000284\pht001902\phv00122149\FEMALE\
-\DCC Harmonized data set\demographic\annotated_sex_1\
 \phs000997\pht005688\phv00265926\height\
 \phs001032\pht005675\phv00265810\height\
 \phs000997\pht005688\phv00265927\weight\
