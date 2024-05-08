@@ -24211,3 +24211,4 @@
 \_genomic_sample_id\phs001468\
 \_genomic_sample_id\phs001600\
 \phs003533\PATNUMB\
+\phs002980\subjects\subject_id\DBGAPID\
