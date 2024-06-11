@@ -1,4 +1,5 @@
-
+\phs003557\ALCOHOLIC\
+\phs003063\MHABUSALC\
 \DCC Harmonized data set\demographic\ethnicity_1\
 \DCC Harmonized data set\demographic\geographic_site_1\
 \DCC Harmonized data set\demographic\hispanic_subgroup_1\
