@@ -4612,7 +4612,7 @@
 \phs003463\home_sleep_reading_center_data_visit_data\visit_start_date_home_sleep_reading_center_data_visit_data\
 \phs003463\miscellaneous_form_visit_data\visit_start_date_miscellaneous_form_visit_data\
 \phs003463\demographics\withdraw_date_demographics\
-\phs003557\ALCOHOLIC\
+\phs003557\ALCOHOLC\
 \phs003063\MHABUSALC\
 \DCC Harmonized data set\demographic\ethnicity_1\
 \DCC Harmonized data set\demographic\geographic_site_1\
