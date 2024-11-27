@@ -1,265 +1,291 @@
 Keyword,Reason
-sex,Sexual history
-sexual,Sexual history
-intercourse,Sexual history
-copulation,Sexual history
-sex history,Sexual history
-sexually,Sexually transmitted disease
-coitus,Sexually transmitted disease
-pareunia,Sexually transmitted disease
-venery,Sexually transmitted disease
-chlamydia,Sexually transmitted disease
-herpes,Sexually transmitted disease
-HIV,Sexually transmitted disease
-pubic lice,Sexually transmitted disease
-trichomoniasis,Sexually transmitted disease
-progesterone,Sexual history
-genital,Sexual history
-gonorrhea,Sexually transmitted disease
-AIDS,Sexually transmitted disease
-syphilis,Sexually transmitted disease
-vagina,Sexual history
-estrogen,Sexual history
-testosterone,Sexual history
-androgens,Sexual history
-depression,Mental health
-anxiety,Mental health
-phobia,Mental health
-mental,Mental health
-psycho,Mental health
-emotional health,Mental health
-depressive,Mental health
-panic,Mental health
-schizophrenia,Mental health
-mental health,Mental health
-psychological,Mental health
-suicide,Mental health
-illicit,Illicit drug use
-abuse,Illicit drug use
-fentanyl,Illicit drug use
-ecstasy,Illicit drug use
-methamphetamine,Illicit drug use
-phencyclidine,Illicit drug use
-mushroom,Illicit drug use
-flakka,Illicit drug use
-central nervous system depressant,Illicit drug use
-khat,Illicit drug use
-loperamide,Illicit drug use
-stimulant,Illicit drug use
-street drug,Illicit drug use
-illegal,Illicit drug use
-cocaine,Illicit drug use
-LSD,Illicit drug use
-heroin,Illicit drug use
-angel dust,Illicit drug use
-salvia,Illicit drug use
-ayahuasca,Illicit drug use
-hallucinogen,Illicit drug use
-kratom,Illicit drug use
-dextromethorphan,Illicit drug use
-cannabinoid,Illicit drug use
-rohypnol,Illicit drug use
-roofies,Illicit drug use
-ketamine hydrochloride,Illicit drug use
-psilocybin,Illicit drug use
-krokodil,Illicit drug use
-bath salts,Illicit drug use
-DMT,Illicit drug use
-inhalant,Illicit drug use
-mescaline,Illicit drug use
-opioid,Illicit drug use
-gamma hydroxybutyrate,Illicit drug use
-bachelor,Intellectual ability/educational attainment
-phd,Intellectual ability/educational attainment
-intellectual,Intellectual ability/educational attainment
-acheivement,Intellectual ability/educational attainment
-ability,Intellectual ability/educational attainment
-education,Intellectual ability/educational attainment
-school,Intellectual ability/educational attainment
-master,Intellectual ability/educational attainment
-quotient,Intellectual ability/educational attainment
-intelligence,Intellectual ability/educational attainment
-disability,Intellectual ability/educational attainment
-attainment,Intellectual ability/educational attainment
-genetic iq,Intellectual ability/educational attainment
-villainage,Legal status
-citizenship,Legal status
-married,Legal status
-single,Legal status
-widowed,Legal status
-nonage,Legal status
-matrimony,Legal status
-civil union,Legal status
-bachelorhood,Legal status
-widowhood,Legal status
-nationality,Legal status
-identity,Legal status
-legal status,Legal status
-villeinage,Legal status
-marital,Legal status
-unmarried,Legal status
-divorces,Legal status
-minority,Legal status
-marriage,Legal status
-spousal,Legal status
-wedlock,Legal status
-spinsterhood,Legal status
-ethnicity,Legal status
-race,Legal status
-surrogate,Legal status
-subject,Identifier
-sample,Identifier
-cohort,Identifier
-family id,Identifier
-identifier,Identifier
-twin id,Identifier
-participant id,Identifier
-cohort id,Identifier
-aric id,Identifier
-event id,Identifier
-draw id,Identifier
-specimen_id,Identifier
-submitter_id,Identifier
 _genomic_sample_id,Identifier
-ID,Identifier
-HPV,Sexually transmitted disease
-Trichomoniasis,Sexually transmitted disease
-CEC_ID,Identifier
-SHARE ID NUMBER,Identifier
-SUBJECT_ID,Identifier
-fake_STCOTRK,Identifier
-FAKE_STCOTRK,Identifier
-Father's Subject ID,Identifier
-Mother ID,Identifier
-Mother's Subject ID,Identifier
-SOURCE_SUBJECT_ID,Identifier
-SAMPLE_ID,Identifier
-ID  Identifier,Identifier
-Chlamydia,Sexually transmitted disease diagnoses, history, and treatment
-Genital herpes,Sexually transmitted disease diagnoses, history, and treatment
-Gonorrhea,Sexually transmitted disease diagnoses, history, and treatment
-HIV,Sexually transmitted disease diagnoses, history, and treatment
-HPV,Sexually transmitted disease diagnoses, history, and treatment
-Pubic lice,Sexually transmitted disease diagnoses, history, and treatment
-Syphilis,Sexually transmitted disease diagnoses, history, and treatment
-Trichomoniasis,Sexually transmitted disease diagnoses, history, and treatment
-date,Intellectual achievement, ability, and educational attainment
-cost,Intellectual achievement, ability, and educational attainment
+ability,Intellectual ability/educational attainment
+abuse,Illicit drug use
+acheivement,Intellectual ability/educational attainment
+Adderall,Controlled substances
+AIDS,Sexually transmitted disease
+ALCOHOLC,Illicit drug use history
+alprazolam,Controlled substances
+amobarbital,Controlled substances
+amphetamine,Controlled substances
+anabolic steroid,Controlled substances
+androgens,Sexual history
+angel dust,Illicit drug use
+Anti-depressants,Mental health diagnoses, history, and treatment
+Antidepressants,Mental health diagnoses, history, and treatment
+anxiety,Mental health diagnoses, history, and treatment
+aric id,Identifier
+Ativan,Controlled substances
+attainment,Intellectual ability/educational attainment
+attending school now,Intellectual achievement, ability, and educational attainment
+ayahuasca,Illicit drug use
+bachelor,Intellectual ability/educational attainment
+bachelorhood,Legal status
 bankruptcy,Intellectual achievement, ability, and educational attainment
-savings,Intellectual achievement, ability, and educational attainment
-pay,Intellectual achievement, ability, and educational attainment
+bath salts,Illicit drug use
+bcp,Mental health diagnoses, history, and treatment
+benzphetamine,Controlled substances
 bills,Intellectual achievement, ability, and educational attainment
-estrogen,Sexual history
-progesterone,Sexual history
-testosterone,Sexual history
-de-identified aric subject id,Identifier
+birth control pill,Sexual history
+bothered by things that usually don't,Mental health diagnoses, history, and treatment
+buprenorphine,Controlled substances
+cannabinoid,Illicit drug use
+cannabis, Illicit drug use history
+carisoprodol,Controlled substances
+CEC_ID,Identifier
+central nervous system depressant,Illicit drug use
+chlamydia,Sexually transmitted disease
+Chlamydia,Sexually transmitted disease diagnoses, history, and treatment
+citizenship,Legal status
+civil union,Legal status
+clonazepam,Controlled substances
+clorazepate,Controlled substances
+cocaine,Illicit drug use
+codeine,Controlled substances
+cohort id,Identifier
+cohort,Identifier
+coitus,Sexually transmitted disease
+copulation,Sexual history
+cost,Intellectual achievement, ability, and educational attainment
+could not get going,Mental health diagnoses, history, and treatment
+country,Identifier
+current smoking status,Illicit drug use history
+date,Intellectual achievement, ability, and educational attainment
 de-identified aric participant id,Identifier
-Natural hormones in the past year,Sexual history 
-MARITAL STATUS,Identifier
-HIGHEST GRADE OF SCHOOL COMPLETED,Intellectual achievement, ability, and educational attainment
+de-identified aric subject id,Identifier
+Demerol,Controlled substances
+Depo-Testosterone,Controlled substances
+depressed,Mental health diagnoses, history, and treatment
+depression scale,Mental health diagnoses, history, and treatment
+depression,Mental health diagnoses, history, and treatment
+depressive,Mental health
+Desoxyn,Controlled substances
+Dexedrine,Controlled substances
+dextromethorphan,Illicit drug use
+diazepam,Controlled substances
+Didrex,Controlled substances
+Dilaudid,Controlled substances
+disability,Intellectual ability/educational attainment
+discrimination form,Intellectual achievement, ability, and educational attainment
+divorces,Legal status
+DMT,Illicit drug use
+Dolophine,Controlled substances
+draw id,Identifier
+Duragesic,Controlled substances
+ecstasy,Illicit drug use
 education of father,Intellectual achievement, ability, and educational attainment
 education of mother,Intellectual achievement, ability, and educational attainment
-highest degree or years of school,Intellectual achievement, ability, and educational attainment
-major accident or disaster,Identifier
-Major Depressive Episode Form,Mental health diagnoses, history, and treatment
-Neuropsychiatric Inventory Questionnaire,Mental health diagnoses, history, and treatment
-HEROIN,Illicit drug use history
-cocaine,Illicit drug use history
-participant id,Identifier
-family id,Identifier
-cohort id,Identifier
-subject id,Identifier
-sample id,Identifier
-twin id,Identifier
-widowed,Identifier
-anxiety,Mental health diagnoses, history, and treatment
-suicide,Mental health diagnoses, history, and treatment
-parents' education,Intellectual achievement, ability, and educational attainment
-highest degree,Intellectual achievement, ability, and educational attainment
-level of school,Intellectual achievement, ability, and educational attainment
-female hormone,Sexual history 
-reason you eat less,Mental health diagnoses, history, and treatment
-reason you eat more,Mental health diagnoses, history, and treatment
+education,Intellectual ability/educational attainment
 ELISA plate id that sample was run on,Identifier
-felt everything done was effort,Mental health diagnoses, history, and treatment
-bothered by things that usually don't,Mental health diagnoses, history, and treatment
-could not get going,Mental health diagnoses, history, and treatment
-felt hopeful about future,Mental health diagnoses, history, and treatment
-marriage-like rel,Identifier
-race discriminated,Identifier
-sex pref discr,Sexual history 
-felt depressed,Mental health diagnoses, history, and treatment
-felt fearful,Mental health diagnoses, history, and treatment
-felt lonely,Mental health diagnoses, history, and treatment
-gender discriminated,Identifier
-purpose in life,Mental health diagnoses, history, and treatment
-ses discriminated,Intellectual achievement, ability, and educational attainment
+emotional health,Mental health
+employment,Intellectual achievement, ability, and educational attainment
+estrogen,Sexual history
+ethnicity,Legal status
+event id,Identifier
+ever drink beer,Illicit drug use history
+ever drink liquor,Illicit drug use history
 expect to reach educational goals,Intellectual achievement, ability, and educational attainment
 expect to reach marriage goals,
 expects to reach goal:in,Intellectual achievement, ability, and educational attainment
-happy,Mental health diagnoses, history, and treatment
-How do you feel about life as a whole,Mental health diagnoses, history, and treatment
-"Nervous, emotional or mental disorder",Mental health diagnoses, history, and treatment
-depression scale,Mental health diagnoses, history, and treatment
-attending school now,Intellectual achievement, ability, and educational attainment
-current smoking status,Illicit drug use history
-is subject in school now,Intellectual achievement, ability, and educational attainment
-subject ever used crack in life,Illicit drug use history
-"when lonely, there are people can talk to",Mental health diagnoses, history, and treatment
-marijuana,Illicit drug use history
-mental disorders,Mental health diagnoses, history, and treatment
-months married,Identifier
-ever drink beer,Illicit drug use history
-ever drink liquor,Illicit drug use history
-non-tricyclic antidepressants,Mental health diagnoses, history, and treatment
-discrimination form,Intellectual achievement, ability, and educational attainment
-LOW EDUCATION,Intellectual achievement, ability, and educational attainment
-ILLITERACY,Intellectual achievement, ability, and educational attainment
-bcp,Mental health diagnoses, history, and treatment
-hrt,Mental health diagnoses, history, and treatment
-hormone replacement therapy,Sexual history 
-birth control pill,Sexual history 
-Anti-depressants,Mental health diagnoses, history, and treatment
-Antidepressants,Mental health diagnoses, history, and treatment
-liquor,Illicit drug use history
-cost,Intellectual achievement, ability, and educational attainment
-bankruptcy,Intellectual achievement, ability, and educational attainment
-savings,Intellectual achievement, ability, and educational attainment
-pay,Intellectual achievement, ability, and educational attainment
-bills,Intellectual achievement, ability, and educational attainment
-Chlamydia,Sexually transmitted disease diagnoses, history, and treatment
+fake_STCOTRK,Identifier
+FAKE_STCOTRK,Identifier
+family id,Identifier
+Father's Subject ID,Identifier
+felt depressed,Mental health diagnoses, history, and treatment
+felt everything done was effort,Mental health diagnoses, history, and treatment
+felt fearful,Mental health diagnoses, history, and treatment
+felt hopeful about future,Mental health diagnoses, history, and treatment
+felt lonely,Mental health diagnoses, history, and treatment
+female hormone,Sexual history
+fentanyl,Illicit drug use
+flakka,Illicit drug use
+gamma hydroxybutyrate,Illicit drug use
+gender discriminated,Identifier
+genetic iq,Intellectual ability/educational attainment
 Genital herpes,Sexually transmitted disease diagnoses, history, and treatment
-Gonorrhea,Sexually transmitted disease diagnoses, history, and treatment
-HIV,Sexually transmitted disease diagnoses, history, and treatment
-HPV,Sexually transmitted disease diagnoses, history, and treatment
-Pubic lice,Sexually transmitted disease diagnoses, history, and treatment
-Syphilis,Sexually transmitted disease diagnoses, history, and treatment
-Trichomoniasis,Sexually transmitted disease diagnoses, history, and treatment
-siteid,Identifier
-subjid,Identifier
-mesaid,Identifier
-patnumb,Identifier
-state,Identifier
-country,Identifier
-ZCRFID,Identifier
-SUBJIDACTT4,Identifier
-SUBJID5,Identifier
-SUBJIDRAAS,Identifier
-SUBJID4INP,Identifier
-SUBJID2,Identifier
-employment,Intellectual achievement, ability, and educational attainment
-paying,Intellectual achievement, ability, and educational attainment
-paid,Intellectual achievement, ability, and educational attainment
-pays,Intellectual achievement, ability, and educational attainment
-depression,Mental health diagnoses, history, and treatment
-depressed,Mental health diagnoses, history, and treatment
-orgasm,Sexual history 
-orgasms,Sexual history 
-orgasmed,Sexual history 
-unemployed,Intellectual achievement, ability, and educational attainment
-employment,Intellectual achievement, ability, and educational attainment
-suicide,Mental health diagnoses, history, and treatment
-suicidal,Mental health diagnoses, history, and treatment
-ALCOHOLC,Illicit drug use history
+genital,Sexual history
 GETGOING,Mental health diagnoses, history, and treatment
+glutethimide,Controlled substances
+gonorrhea,Sexually transmitted disease
+Gonorrhea,Sexually transmitted disease diagnoses, history, and treatment
+Halcion,Controlled substances
+hallucinogen,Illicit drug use
+happy,Mental health diagnoses, history, and treatment
+heroin,Illicit drug use
+HEROIN,Illicit drug use history
+herpes,Sexually transmitted disease
+highest degree or years of school,Intellectual achievement, ability, and educational attainment
+highest degree,Intellectual achievement, ability, and educational attainment
+HIGHEST GRADE OF SCHOOL COMPLETED,Intellectual achievement, ability, and educational attainment
+HIV,Sexually transmitted disease diagnoses, history, and treatment
 homeless,Intellectual achievement, ability, and educational attainment
+hormone replacement therapy,Sexual history
+How do you feel about life as a whole,Mental health diagnoses, history, and treatment
+HPV,Sexually transmitted disease diagnoses, history, and treatment
+hrt,Mental health diagnoses, history, and treatment
+hydrocodone,Controlled substances
+hydromorphone,Controlled substances
+ID  Identifier,Identifier
+ID,Identifier
+identifier,Identifier
+identity,Legal status
+illegal,Illicit drug use
+illicit,Illicit drug use
+ILLITERACY,Intellectual achievement, ability, and educational attainment
+inhalant,Illicit drug use
+intellectual,Intellectual ability/educational attainment
+intelligence,Intellectual ability/educational attainment
+intercourse,Sexual history
+is subject in school now,Intellectual achievement, ability, and educational attainment
+ketamine hydrochloride,Illicit drug use
+ketamine,Controlled substances
+khat,Illicit drug use
+Klonopin,Controlled substances
+kratom,Illicit drug use
+krokodil,Illicit drug use
+legal status,Legal status
+level of school,Intellectual achievement, ability, and educational attainment
+liquor,Illicit drug use history
+loperamide,Illicit drug use
+lorazepam,Controlled substances
+LOW EDUCATION,Intellectual achievement, ability, and educational attainment
+LSD,Illicit drug use
+lysergic acid diethylamide
+major accident or disaster,Identifier
+Major Depressive Episode Form,Mental health diagnoses, history, and treatment
+marijuana,Illicit drug use history
+MARITAL STATUS,Identifier
+marital,Legal status
+marriage-like rel,Identifier
+marriage,Legal status
+married,Legal status
+master,Intellectual ability/educational attainment
+matrimony,Legal status
+mental disorders,Mental health diagnoses, history, and treatment
+mental health,Mental health
+mental,Mental health
+meperidine,Controlled substances
+mesaid,Identifier
+mescaline,Illicit drug use
+methadone,Controlled substances
+methamphetamine,Controlled substances
+methamphetamine,Illicit drug use
+methaqualone,Controlled substances
+methylenedioxymethamphetamine,Controlled substances
+methylphenidate,Controlled substances
+midazolam,Controlled substances
+minority,Legal status
+months married,Identifier
+morphine,Controlled substances
+Mother ID,Identifier
+Mother's Subject ID,Identifier
+mushroom,Illicit drug use
+nationality,Legal status
+Natural hormones in the past year,Sexual history
+Nervous, emotional or mental disorder,Mental health diagnoses, history, and treatment
+Neuropsychiatric Inventory Questionnaire,Mental health diagnoses, history, and treatment
+non-tricyclic antidepressants,Mental health diagnoses, history, and treatment
+nonage,Legal status
+opioid,Illicit drug use
+opium,Controlled substances
+orgasm,Sexual history
+orgasmed,Sexual history
+orgasms,Sexual history
+oxycodone,Controlled substances
+OxyContin,Controlled substances
+paid,Intellectual achievement, ability, and educational attainment
+panic,Mental health
+parents' education,Intellectual achievement, ability, and educational attainment
+pareunia,Sexually transmitted disease
+participant id,Identifier
+patnumb,Identifier
+pay,Intellectual achievement, ability, and educational attainment
+paying,Intellectual achievement, ability, and educational attainment
+pays,Intellectual achievement, ability, and educational attainment
+pentobarbital,Controlled substances
+Percocet,Controlled substances
+peyote, Illicit drug use history
+phd,Intellectual ability/educational attainment
+phencyclidine,Illicit drug use
+phendimetrazine,Controlled substances
+phobia,Mental health
+progesterone,Sexual history
+psilocybin,Illicit drug use
+psycho,Mental health
+psychological,Mental health
+pubic lice,Sexually transmitted disease
+Pubic lice,Sexually transmitted disease diagnoses, history, and treatment
+purpose in life,Mental health diagnoses, history, and treatment
+quotient,Intellectual ability/educational attainment
+race discriminated,Identifier
+race,Legal status
+reason you eat less,Mental health diagnoses, history, and treatment
+reason you eat more,Mental health diagnoses, history, and treatment
+Restoril,Controlled substances
+Ritalin,Controlled substances
+rohypnol,Illicit drug use
+roofies,Illicit drug use
+salvia,Illicit drug use
+sample id,Identifier
+SAMPLE_ID,Identifier
+sample,Identifier
+savings,Intellectual achievement, ability, and educational attainment
+schizophrenia,Mental health
+school,Intellectual ability/educational attainment
+ses discriminated,Intellectual achievement, ability, and educational attainment
+sex history,Sexual history
+sex pref discr,Sexual history
+sex,Sexual history
+sexual,Sexual history
+sexually,Sexually transmitted disease
+SHARE ID NUMBER,Identifier
+single,Legal status
+siteid,Identifier
+Soma,Controlled substances
+SOURCE_SUBJECT_ID,Identifier
+specimen_id,Identifier
+spinsterhood,Legal status
+spousal,Legal status
+state,Identifier
+stimulant,Illicit drug use
+street drug,Illicit drug use
+subject ever used crack in life,Illicit drug use history
+subject id,Identifier
+SUBJECT_ID,Identifier
+subject,Identifier
+subjid,Identifier
+SUBJID2,Identifier
+SUBJID4INP,Identifier
+SUBJID5,Identifier
+SUBJIDACTT4,Identifier
+SUBJIDRAAS,Identifier
+Sublimaze,Controlled substances
+submitter_id,Identifier
+Suboxone,Controlled substances
+suicidal,Mental health diagnoses, history, and treatment
+suicide,Mental health diagnoses, history, and treatment
+surrogate,Legal status
+syphilis,Sexually transmitted disease
+Syphilis,Sexually transmitted disease diagnoses, history, and treatment
+temazepam,Controlled substances
+testosterone,Sexual history
+Tranxene,Controlled substances
+triazolam,Controlled substances
+trichomoniasis,Sexually transmitted disease
+Trichomoniasis,Sexually transmitted disease
+twin id,Identifier
+unemployed,Intellectual achievement, ability, and educational attainment
+unmarried,Legal status
+vagina,Sexual history
+Valium,Controlled substances
+venery,Sexually transmitted disease
+Versed,Controlled substances
+villainage,Legal status
+villeinage,Legal status
+wedlock,Legal status
+when lonely, there are people can talk to,Mental health diagnoses, history, and treatment
+widowed,Legal status
+widowhood,Legal status
+Xanax,Controlled substances
+ZCRFID,Identifier
