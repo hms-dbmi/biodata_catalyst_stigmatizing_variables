@@ -31779,3 +31779,90 @@ x
 \_genomic_sample_id\phs001682\
 \phs001446\pht009627\phv00420843\SAMPLE_ID\
 \phs001446\pht009629\phv00420872\SAMPLE_ID\
+\phs000007\pht000020\phv00003369\FK121\
+\phs000007\pht000020\phv00003371\FK123\
+\phs000007\pht000020\phv00003377\FK129\
+\phs000007\pht000028\phv00006902\FS293\
+\phs000007\pht000029\phv00007339\FT300\
+\phs000007\pht000036\phv00010206\G063\
+\phs000007\pht000676\phv00066844\chem_nm3\
+\phs000007\pht000676\phv00066848\chem_gp4\
+\phs000007\pht000828\phv00073801\chem_gp4\
+\phs000007\pht003098\phv00177895\medstren\
+\phs000007\pht003098\phv00177919\chem_gp2\
+\phs000007\pht004813\phv00250397\e260\
+\phs000007\pht004814\phv00250780\g063\
+\phs000007\pht005172\phv00257905\chem_gp2\
+\phs000007\pht005173\phv00257939\chem_gp2\
+\phs000007\pht005173\phv00257940\chem_gp3\
+\phs000007\pht006019\phv00276901\chem_gp2\
+\phs000007\pht006019\phv00276902\chem_nm2\
+\phs000284\pht001902\phv00122472\OTHMED\
+\phs000284\pht001902\phv00122953\OTHREG2\
+\phs000284\pht001902\phv00122954\OTHREG3\
+\phs000287\pht001474\phv00101645\STNAM59\
+\phs000287\pht001474\phv00101646\STPNAM59\
+\phs000287\pht001475\phv00102839\STPNAM59\
+\phs000287\pht001475\phv00102840\DOSNM159\
+\phs000287\pht001488\phv00104106\START237\
+\phs000287\pht001493\phv00108772\STNAM59\
+\phs000287\pht001493\phv00108773\STPNAM59\
+\phs000287\pht001493\phv00108775\DOSNM259\
+\phs001608\methadone\
+\phs001608\morphine\
+\phs001608\oxycodone\
+\phs001608\oxycontin\
+\phs001608\pht011585\phv00493786\tylenol\
+\phs001608\pht011585\phv00493787\percocet\
+\phs001608\pht011585\phv00493789\dilaudid\
+\phs001608\pht011585\phv00493790\demerol\
+\phs002348\OR1_RMK\
+\phs002348\OR2_RMK\
+\phs002348\OR2\
+\phs002348\OTHR_RMK\
+\phs002362\F56MED1B\
+\phs002362\F56MED2B\
+\phs002362\F56MED5B\
+\phs002363\d_C_meds_hosp_24h_other_oth\
+\phs002363\d_C_meds_hosp_24h_sedatives___5\
+\phs002363\d_C_meds_hosp_other_oth_dly\
+\phs002363\d_C_meds_hosp_sedatives_dly___5\
+\phs002363\d_C_meds_hosp_tot_other_oth\
+\phs002363\meds_hosp_24h_other_oth\
+\phs002363\meds_hosp_24h_sedatives___5\
+\phs002363\meds_hosp_other_oth_dly\
+\phs002363\meds_hosp_sedatives_dly___5\
+\phs002363\meds_hosp_tot_other_oth\
+\phs002383\ATC_GROUP\
+\phs002383\ATCTEXT4\
+\phs002383\COD\
+\phs002383\DEM\
+\phs002383\DIL\
+\phs002383\DRUGNAME\
+\phs002383\MEDNAME\
+\phs002383\METH\
+\phs002383\MOR\
+\phs002383\OXCD\
+\phs002383\OXCT\
+\phs002383\PERC\
+\phs002383\PREFNAME\
+\phs002386\OT2_MTHS\
+\phs002415\TRTEVENT_SPCFY\
+\phs002808\V5AD17H1\
+\phs002808\V5AD17J1\
+\phs002808\V5AG08E\
+\phs002808\V5AG08F\
+\phs003419\MEDS_HOSP_24H_SEDATIVES___5\
+\phs003419\MEDS_HOSP_SEDATIVES_DLY___5\
+\phs003461\How do they use cannabis (also known as marijuana)? (You can choose one or more of these) (18month)\
+\phs003461\How do they use cannabis (also known as marijuana)? (You can choose one or more of these) (24month)\
+\phs003461\How do they use cannabis (also known as marijuana)? (You can choose one or more of these) (36month)\
+\phs003461\How do they use cannabis (also known as marijuana)? (You can choose one or more of these) (48month)\
+\phs003461\How do they use cannabis (also known as marijuana)? (You can choose one or more of these) (enrollment)\
+\phs003461\Right now, does anyone in your household use cannabis (also known as marijuana)? (12month)\
+\phs003461\Right now, does anyone in your household use cannabis (also known as marijuana)? (18month)\
+\phs003461\Right now, does anyone in your household use cannabis (also known as marijuana)? (24month)\
+\phs003461\Right now, does anyone in your household use cannabis (also known as marijuana)? (36month)\
+\phs003461\Right now, does anyone in your household use cannabis (also known as marijuana)? (48month)\
+\phs003461\Right now, does anyone in your household use cannabis (also known as marijuana)? (enrollment)\
+\phs003654\ICDTYPOT\
