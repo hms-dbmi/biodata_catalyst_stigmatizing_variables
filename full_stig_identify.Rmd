@@ -1,0 +1,273 @@
+Libraries
+```{r}
+library(jsonlite)
+library(tidyverse)
+library(readxl)
+library(dplyr)
+library(stringr)
+library(jsonlite)
+library(data.table)
+library(remotes)
+install_version("rjson",version = "0.2.20")
+library("rjson")
+library(data.table)
+```
+
+
+
+
+
+```{r}
+# Load files
+stig_ids <- read.csv("../conceptFiles/stigmatized_decisions.csv")
+
+stig_ids <- unique(stig_ids)
+
+concepts_list <- read.csv("../conceptFiles/conceptsToRemove.csv")
+stigterms <- read.csv("../conceptFiles/stigmatizing_terms.csv")
+
+```
+
+#### Below are 4 blocks of code, use 1st 2 run if the data you are using comes from the json file in the QA folder, the others if you are using and uploaded output csv from the API
+
+
+##### Run for QA json output
+```{r}
+shortname <- tolower("Exome_SCID") ###### name of the folder / shortname for the study
+phsnum <- "phs000479" ######## phs number of the study
+study_type <- "p" #### g = genomic | p = phenotypic
+
+json_file <- paste0("../../",shortname,"/qa/",phsnum,"/",phsnum,".json")
+json_data <- fromJSON(file=json_file,simplify = TRUE)
+```
+
+```{r}
+decision_list <- data.frame("varid"= rep(NA, length(json_data[[2]][[2]])),"decision"=NA,"hpds_path"=NA)
+
+for (i in c(1:length(decision_list$varid))) {
+  
+  if((i%%1000)==0){
+    print(paste0("Variable ",i))
+  }
+  
+  varid <- json_data[[2]][[2]][[i]][[1]][[2]]
+  
+  decision_list$varid[i] <- varid
+  decision_list$hpds_path[i] <- json_data[[2]][[2]][[i]][[1]][[6]]
+  
+  # Check if already flagged as stigmatizing
+  if(varid%in%stig_ids$varid){
+    if(stig_ids$decision[which(stig_ids$varid==varid)]=="stigmatizing"){
+      decision_list$decision[i] = "stigmatizing"
+      next
+    }
+  }
+  
+  # Check for terms in ID, Name, and Description
+  var_info <- c(varid,json_data[[2]][[2]][[i]][[1]][[4]],json_data[[2]][[2]][[i]][[5]])
+  
+  terms_list <- stigterms
+  terms_list$Keyword <- paste0("\\b",stigterms$Keyword)
+  
+  Pattern = paste(terms_list$Keyword, collapse = "|")
+
+  suppressWarnings(result <- data.table(var_info, result = grepl(Pattern,var_info,ignore.case = T)))
+  
+  if(TRUE%in%result$result){
+    decision_list$decision[i] = "stigmatizing"
+    next
+  }
+  
+  # Check for _ID
+  
+  suppressWarnings(result <- data.table(var_info, result = grepl("_id",var_info,ignore.case = T)))
+  
+  if(TRUE%in%result$result){
+    decision_list$decision[i] = "stigmatizing"
+    next
+  }
+  
+   # Check data for terms
+      
+  Pattern = paste(terms_list$Keyword, collapse = "|")
+  
+  suppressWarnings(result <- data.table(json_data[[2]][[2]][[i]][[1]][[3]], result = grepl(Pattern,json_data[[2]][[2]][[i]][[1]][[3]],ignore.case = T)))
+
+  if(TRUE%in%result$result){
+    decision_list$decision[i] = "stigmatizing"
+  }
+  
+}
+
+decision_list[is.na(decision_list)] = "not stigmatizing"
+
+# remove DCC harmonized sex variable
+decision_list$decision[which(decision_list$varid=="annotated_sex_1")] = "not stigmatizing"
+
+ if(study_type=="g"){
+   decision_list <- rbind(decision_list, data.frame("varid"="genomic_sample_id",
+                                   "decision"="stigmatizing",
+                                   "hpds_path"=paste0("\\_genomic_sample_id\\",phsnum,"\\")
+                                   ))
+ }
+
+
+#new_stig_ids <- unique(rbind(stig_ids,decision_list[,1:2]))
+```
+
+##### RUN for API csv output
+```{r}
+vars_df <- read.csv("rec_adult_df.csv") ##### <<<<<<<<<<<<<<< replace this filename with the csv you upload
+```
+
+```{r}
+decision_list <- data.frame("varid"=vars_df$varId,"decision"=NA,hpds_path=vars_df$HPDS_PATH)
+  for (i in c(1:length(decision_list$varid))) {
+   varid=vars_df$columnmeta_name[i]
+   
+
+   if((i%%1000)==0){
+     print(paste0("Variable ",i))
+   }
+
+   # Check if already flagged as stigmatizing
+   if(varid%in%stig_ids$varid){
+     if(stig_ids$decision[which(stig_ids$varid==varid)]=="stigmatizing"){
+       decision_list$decision[i] = "stigmatizing"
+       next
+     }
+   }
+
+   # Check for terms in ID, Name, and Description
+   var_info <- c(varid,vars_df$description[i],vars_df$varId[i])
+
+   terms_list <- stigterms
+   terms_list$Keyword <- paste0("\\b",stigterms$Keyword)
+
+   Pattern = paste(terms_list$Keyword, collapse = "|")
+
+   suppressWarnings(result <- data.table(var_info, result = grepl(Pattern,var_info,ignore.case = T)))
+
+   if(TRUE%in%result$result){
+     decision_list$decision[i] = "stigmatizing"
+     next
+   }
+
+   # Check for _ID
+
+   suppressWarnings(result <- data.table(var_info, result = grepl("_id",var_info,ignore.case = T)))
+
+   if(TRUE%in%result$result){
+     decision_list$decision[i] = "stigmatizing"
+     next
+   }
+
+   # Check data for terms
+
+   Pattern = paste(terms_list$Keyword, collapse = "|")
+
+   suppressWarnings(result <- data.table(vars_df$values[i], result = grepl(Pattern,vars_df$values[i],ignore.case = T)))
+
+   if(TRUE%in%result$result){
+     decision_list$decision[i] = "stigmatizing"
+   }
+ }
+ decision_list[is.na(decision_list)] = "not stigmatizing"
+
+ # remove DCC harmonized sex variable
+ decision_list$decision[which(decision_list$varid=="annotated_sex_1")] = "not stigmatizing"
+ 
+ if(study_type=="g"){
+   decision_list <- rbind(decision_list, data.frame("varid"="genomic_sample_id",
+                                   "decision"="stigmatizing",
+                                   "hpds_path"=paste0("\\_genomic_sample_id\\",phsnum,"\\")
+                                   ))
+ }
+
+```
+
+
+###### Run for database table input
+```{r}
+#vars_df <- read_csv("~/studies/avl-73-bdc-etl/dev_stigmatizing_variables/nov5/vars.csv") ##### <<<<<<<<<<<<<<< replace this filename with the csv you upload
+vars_df <- read_tsv("~/studies/avl-73-bdc-etl/dev_stigmatizing_variables/nov18/vars.tsv", show_col_types = F)
+```
+
+```{r}
+decision_list <- data.frame("varid"=vars_df$id,"decision"=NA,hpds_path=vars_df$concept_path)
+  for (i in c(1:length(decision_list$varid))) {
+   varid=vars_df$id[i]
+   
+
+   if((i%%1000)==0){
+     print(paste0("Variable ",i))
+   }
+
+   # Check if already flagged as stigmatizing
+   if(varid%in%stig_ids$varid){
+     if(stig_ids$decision[which(stig_ids$varid==varid)]=="stigmatizing"){
+       decision_list$decision[i] = "stigmatizing"
+       next
+     }
+   }
+
+   # Check for terms in ID, Name, and Description
+   var_info <- c(varid,vars_df$description[i],vars_df$id[i])
+
+   terms_list <- stigterms
+   terms_list$Keyword <- paste0("\\b",stigterms$Keyword)
+
+   Pattern = paste(terms_list$Keyword, collapse = "|")
+
+   suppressWarnings(result <- data.table(var_info, result = grepl(Pattern,var_info,ignore.case = T)))
+
+   if(TRUE%in%result$result){
+     decision_list$decision[i] = "stigmatizing"
+     next
+   }
+
+   # Check for _ID
+
+   suppressWarnings(result <- data.table(var_info, result = grepl("_id",var_info,ignore.case = T)))
+
+   if(TRUE%in%result$result){
+     decision_list$decision[i] = "stigmatizing"
+     next
+   }
+
+   # Check data for terms
+
+   Pattern = paste(terms_list$Keyword, collapse = "|")
+
+   suppressWarnings(result <- data.table(vars_df$values[i], result = grepl(Pattern,vars_df$values[i],ignore.case = T)))
+
+   if(TRUE%in%result$result){
+     decision_list$decision[i] = "stigmatizing"
+   }
+ }
+ decision_list[is.na(decision_list)] = "not stigmatizing"
+
+```
+
+
+##### Run for all
+
+```{r}
+new_stig_ids <- unique(rbind(stig_ids,decision_list[,1:2]))
+
+new_concepts <- decision_list$hpds_path[which(decision_list$decision=="stigmatizing")]
+
+sanity_check <- data.frame("path"=decision_list$hpds_path[which(decision_list$decision=="not stigmatizing")])
+
+```
+
+
+```{r}
+# Update files
+
+write.csv(stig_ids,"../conceptFiles/stigmatized_decisions.csv",row.names = F)
+write.csv(new_concepts,"../conceptFiles/conceptsToRemove.csv",row.names = F)
+write.table(new_concepts,"../output/conceptsToRemove.txt",sep = ",",row.names = F)
+```
+
+
