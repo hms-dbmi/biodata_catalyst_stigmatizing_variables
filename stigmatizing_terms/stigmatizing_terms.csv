@@ -11,6 +11,8 @@ alprazolam,Controlled substances
 amobarbital,Controlled substances
 amphetamine,Controlled substances
 anabolic steroid,Controlled substances
+ANALYTE_ISOLATION_BATCH,Identifier
+ANALYTE_SAMPLE_ID,Identifier
 androgens,Sexual history
 angel dust,Illicit drug use
 Anti-depressants,Mental health diagnoses, history, and treatment
@@ -25,6 +27,7 @@ bachelor,Intellectual ability/educational attainment
 bachelorhood,Legal status
 bankruptcy,Intellectual achievement, ability, and educational attainment
 barcode,Identifier
+Barcode,Identifier
 bath salts,Illicit drug use
 bcp,Mental health diagnoses, history, and treatment
 benzphetamine,Controlled substances
@@ -48,14 +51,18 @@ codeine,Controlled substances
 cohort id,Identifier
 cohort,Identifier
 coitus,Sexually transmitted disease
+Collection_visit,Identifier
 copulation,Sexual history
 cost,Intellectual achievement, ability, and educational attainment
 could not get going,Mental health diagnoses, history, and treatment
 country,Identifier
 current smoking status,Illicit drug use history
 date,Intellectual achievement, ability, and educational attainment
+days,Identifier
 de-identified aric participant id,Identifier
 de-identified aric subject id,Identifier
+death,Identifier
+decodeDate,Identifier
 Demerol,Controlled substances
 Depo-Testosterone,Controlled substances
 depressed,Mental health diagnoses, history, and treatment
@@ -90,6 +97,7 @@ ever drink liquor,Illicit drug use history
 expect to reach educational goals,Intellectual achievement, ability, and educational attainment
 expect to reach marriage goals,
 expects to reach goal:in,Intellectual achievement, ability, and educational attainment
+extractDate,Identifier
 fake_STCOTRK,Identifier
 FAKE_STCOTRK,Identifier
 family id,Identifier
@@ -203,6 +211,7 @@ parents' education,Intellectual achievement, ability, and educational attainment
 pareunia,Sexually transmitted disease
 participant id,Identifier
 patnumb,Identifier
+PATNUMB,Identifier
 pay,Intellectual achievement, ability, and educational attainment
 paying,Intellectual achievement, ability, and educational attainment
 pays,Intellectual achievement, ability, and educational attainment
@@ -214,6 +223,7 @@ phencyclidine,Illicit drug use
 phendimetrazine,Controlled substances
 phobia,Mental health
 progesterone,Sexual history
+Primary_biosample_ID,Identifier
 psilocybin,Illicit drug use
 psycho,Mental health
 psychological,Mental health
@@ -230,9 +240,13 @@ Ritalin,Controlled substances
 rohypnol,Illicit drug use
 roofies,Illicit drug use
 salvia,Illicit drug use
+SAMPLE_CONTAINER_ID,Identifier
 sample id,Identifier
 SAMPLE_ID,Identifier
+sample_box_ID,Identifier
 sample,Identifier
+sample_row_column_ID,Identifier
+SAMPLE_WELL_ID,Identifier
 savings,Intellectual achievement, ability, and educational attainment
 schizophrenia,Mental health
 school,Intellectual ability/educational attainment
