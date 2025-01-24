@@ -16,6 +16,9 @@ angel dust,Illicit drug use
 Anti-depressants,Mental health diagnoses, history, and treatment
 Antidepressants,Mental health diagnoses, history, and treatment
 anxiety,Mental health diagnoses, history, and treatment
+ANALYTE_ISOLATION_BATCH,Identifier
+ANALYTE_ISOLATION_LAB,Identifier
+ANALYTE_SAMPLE_ID,Identifier
 aric id,Identifier
 Ativan,Controlled substances
 attainment,Intellectual ability/educational attainment
@@ -25,6 +28,7 @@ bachelor,Intellectual ability/educational attainment
 bachelorhood,Legal status
 bankruptcy,Intellectual achievement, ability, and educational attainment
 barcode,Identifier
+Barcode,Identifier
 bath salts,Illicit drug use
 bcp,Mental health diagnoses, history, and treatment
 benzphetamine,Controlled substances
@@ -48,6 +52,7 @@ codeine,Controlled substances
 cohort id,Identifier
 cohort,Identifier
 coitus,Sexually transmitted disease
+Collection_visit,Identifier
 copulation,Sexual history
 cost,Intellectual achievement, ability, and educational attainment
 could not get going,Mental health diagnoses, history, and treatment
@@ -56,6 +61,7 @@ current smoking status,Illicit drug use history
 date,Intellectual achievement, ability, and educational attainment
 de-identified aric participant id,Identifier
 de-identified aric subject id,Identifier
+decodeDate,Identifier
 Demerol,Controlled substances
 Depo-Testosterone,Controlled substances
 depressed,Mental health diagnoses, history, and treatment
@@ -90,6 +96,7 @@ ever drink liquor,Illicit drug use history
 expect to reach educational goals,Intellectual achievement, ability, and educational attainment
 expect to reach marriage goals,
 expects to reach goal:in,Intellectual achievement, ability, and educational attainment
+extractDate,Identifier
 fake_STCOTRK,Identifier
 FAKE_STCOTRK,Identifier
 family id,Identifier
@@ -213,6 +220,7 @@ phd,Intellectual ability/educational attainment
 phencyclidine,Illicit drug use
 phendimetrazine,Controlled substances
 phobia,Mental health
+Primary_biosample_ID,Identifier
 progesterone,Sexual history
 psilocybin,Illicit drug use
 psycho,Mental health
@@ -233,6 +241,10 @@ salvia,Illicit drug use
 sample id,Identifier
 SAMPLE_ID,Identifier
 sample,Identifier
+sample_box_ID,Identifier
+SAMPLE_CONTAINER_ID,Identifier
+sample_row_column_ID,Identifier
+SAMPLE_WELL_ID,Identifier
 savings,Intellectual achievement, ability, and educational attainment
 schizophrenia,Mental health
 school,Intellectual ability/educational attainment
@@ -278,6 +290,7 @@ triazolam,Controlled substances
 trichomoniasis,Sexually transmitted disease
 Trichomoniasis,Sexually transmitted disease
 twin id,Identifier
+UBERON_ID,Identifier
 unemployed,Intellectual achievement, ability, and educational attainment
 unmarried,Legal status
 vagina,Sexual history
