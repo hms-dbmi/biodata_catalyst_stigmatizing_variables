@@ -1,3 +1,417 @@
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby2\preg_covidsex_2\1\Inf\36\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Inf\24\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Inf\27\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\1\Inf\15\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cvdspec___6_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\spike\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\enrl_reinfyn\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\1\Inf\15\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_bipolar_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\race___7\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cns_type___4_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vaccothspec_2\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby2\pregfu_sex_2\1\Inf\6\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_move_type___8_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cancerspec___5_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vaccothspec_7\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cvdspec___4_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Inf\21\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby2\preg_covidsex_2\2\Inf\30\
+\phs003463\RECOVER_Adult\demographics\dob\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_stroke_type___1_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Inf\36\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Inf\9\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\0\Inf\9\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vaccothspec_8\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\race_unique_an\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\rx_carelevel___4\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cvdspec___3_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vacctype_1\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Noninf\12\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vaccothspec_9\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_stroke_type___3_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Inf\6\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Inf\21\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Noninf\42\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Inf\15\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\1\Noninf\27\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_nmusc_type___5_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_obesity_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_fibromyalgia_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\1\Inf\6\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_potsspec___2_base\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\1\Inf\30\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby2\pregfu_sex_2\1\Inf\24\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\0\Inf\36\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vaccothspec_10\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby2\pregfu_sex_2\2\Inf\3\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\1\Noninf\9\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_autoimmspec___11_base\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\1\Noninf\36\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\0\Inf\27\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_autoimmspec___15_base\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\0\Noninf\18\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vaccdt_5\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\1\Inf\24\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Noninf\0\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_sickle_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cvd_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cancerspec___8_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby2\preg_covidsex_2\2\Inf\24\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\1\Noninf\12\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vacctype_5\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Inf\21\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby2\pregfu_sex_2\1\Inf\30\
+\phs003463\RECOVER_Adult\demographics\withdraw_date\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\1\Inf\0\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\referral_type\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Noninf\48\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_autoimmspec___21_base\
+\phs003463\RECOVER_Adult\demographics\enroll_index_date\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cancerspec___6_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Inf\15\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Noninf\33\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vaccothspec_3\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cancerspec___7_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\1\Inf\39\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cancerspec___2_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Inf\3\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\biosex\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_transplant_type___2_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Inf\42\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_potsspec___1_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_nmusc_type___2_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\over_89_flag\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_autoimmspec___22_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Inf\15\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Noninf\3\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Noninf\21\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vaccyn\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\1\Noninf\9\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\race___15\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_autoimmspec____88_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cancerspec___1_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\1\Inf\24\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Inf\0\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_dementia_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\acute_yn\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Noninf\21\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\rx_carelevel____88\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_stroke_type___2_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby2\preg_covidsex_2\2\Inf\15\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cvdspec___98_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Noninf\24\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\race___5\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_diabetes_base\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\1\Noninf\30\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_potsspec____88_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\infect_yn\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\rx_carelevel___0\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Noninf\33\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\0\Inf\18\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_stroke_type___98_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\1\Inf\33\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Inf\27\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\1\Inf\48\
+\phs003463\RECOVER_Adult\demographics\onstudy_infection_cnt\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cns_type____88_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby2\preg_covidsex_2\2\Inf\9\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vaccdt_2\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby2\pregfu_sex_2\1\Inf\33\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\1\Noninf\21\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_autoimmspec___13_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vacctype_6\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cancerspec____88_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_autoimmspec___10_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_transplant_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Noninf\27\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Noninf\9\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\age_enroll\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby2\preg_covidsex_2\2\Noninf\15\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\0\Inf\3\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_potsspec___3_base\
+\phs003463\RECOVER_Adult\demographics\enroll_hub_site_id\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby2\pregfu_sex_2\2\Inf\18\
+\phs003463\RECOVER_Adult\demographics\enroll_category\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_nmusc_type___3_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cancerspec___4_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Noninf\12\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\1\Inf\39\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby2\preg_covidsex_2\1\Inf\15\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Noninf\15\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Inf\3\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Noninf\33\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_renal_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\rx_carelevel___2\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vaccothspec_4\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby2\preg_covidsex_2\1\Inf\3\
+\phs003463\RECOVER_Adult\demographics\onstudy_infection\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\1\Noninf\6\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby2\preg_covidsex_2\2\Noninf\27\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_dialyn_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby3\preg_covidsex_3\1\Inf\6\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\acute_reinf_ovr\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cvdspec___2_base\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\0\Inf\12\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Inf\42\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_autoimmspec___9_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vaccdt_3\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby2\preg_covidsex_2\2\Inf\12\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Noninf\36\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Inf\33\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_stroke_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vacctype_4\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Noninf\24\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cancerspec___15_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cvdspec____88_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Noninf\21\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Noninf\0\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_autoimmspec___6_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby2\preg_covidsex_2\2\Inf\27\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Inf\48\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_move_type___5_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\dob\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Noninf\27\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vacctype_10\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cvdspec___7_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vacctype_3\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vaccdt_4\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Inf\9\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\1\Inf\36\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Inf\24\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cns_type___2_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_autoimmspec___18_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Inf\0\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\infect_yn_anti_f\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_polyov_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vacctype_2\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vaccothspec_6\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\0\Inf\33\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cancerspec___14_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_pots_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_move_type___4_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_transplant_type____88_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_nmusc_type____88_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vaccdt_1\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_numb\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\spop___3\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vacctype_7\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_move_type___3_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_autoimmspec___5_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Noninf\6\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_potsspec___10_base\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\0\Noninf\15\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cancerspec___11_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_autoimmspec___17_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\enrl_reinfdt\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_move_type____88_base\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\1\Noninf\18\
+\phs003463\RECOVER_Adult\demographics\crossover_index_date\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Inf\12\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_autoimmspec___1_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_nmusc_type___6_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_potsspec___98_base\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\0\Noninf\36\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\1\Inf\36\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby2\preg_covidsex_2\1\Inf\18\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cancerspec___10_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_transplant_type___5_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_autoimmspec___7_base\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\1\Inf\6\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Inf\39\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\1\Inf\30\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\1\Inf\9\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cvdspec___8_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\1\Noninf\45\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Inf\6\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\0\Noninf\27\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby2\preg_covidsex_2\2\Noninf\6\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_autoimmspec___98_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\1\Inf\18\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\rx_carelevel___3\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cancerspec___9_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cancerspec___19_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Inf\39\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vaccdt_6\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_autoimmspec___3_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_autoimmspec___20_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\1\Noninf\12\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Inf\33\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cvdspec___5_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby2\preg_covidsex_2\1\Noninf\3\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\0\Inf\30\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cns_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\1\Noninf\3\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vaccothspec_1\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Inf\3\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_autoimm_base\
+\phs003463\RECOVER_Adult\demographics\deceased_date\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\index_dt\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby2\preg_covidsex_2\2\Noninf\18\
+\phs003463\RECOVER_Adult\demographics\crossover_flag\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Noninf\30\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby2\pregfu_sex_2\2\Inf\9\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\spop___4\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\0\Inf\39\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_autoimmspec___19_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_nmusc_type___1_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cancerspec___13_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Noninf\39\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Inf\30\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby2\preg_covidsex_2\1\Noninf\24\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\race___3\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\1\Noninf\30\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_autoimmspec___2_base\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\0\Noninf\0\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_othermh_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\rx_carelevel___98\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby2\preg_covidsex_2\1\Noninf\21\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Inf\18\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby2\preg_covidsex_2\1\Noninf\36\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\1\Inf\27\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Inf\36\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_nmusc_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\race___2\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cancerspec___12_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_copd_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\preg_cohort_yn\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\rx_totalinf\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_autoimmspec___16_base\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\0\Inf\24\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_transplant_type___3_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\age_enrl_cat\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Noninf\42\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\0\Inf\21\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\0\Inf\0\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Noninf\39\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cns_type___6_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_autoimmspec___14_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_move_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Inf\33\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_stroke_type___6_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vacctype_8\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\1\Inf\21\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\1\Inf\18\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_asthma_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_move_type___1_base\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\0\Inf\6\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cns_type___5_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby2\pregfu_sex_2\2\Inf\27\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Inf\27\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vaccdt_10\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cfs_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby2\pregfu_sex_2\2\Inf\21\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\1\Noninf\27\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\1\Inf\9\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\1\Noninf\24\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\0\Inf\15\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_stroke_type____88_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\education\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\1\Inf\12\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Noninf\24\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cancerspec___17_base\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\1\Inf\12\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cancer_base\
+\phs003463\RECOVER_Adult\demographics\enroll_site_path\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_move_type___2_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_diabetesspec_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_move_type___6_base\
+\phs003463\RECOVER_Adult\demographics\withdrawn\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby2\pregfu_sex_2\1\Inf\3\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Inf\6\
+\phs003463\RECOVER_Adult\demographics\enroll_zip_code\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\race____88\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Inf\18\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vacctype_9\
+\phs003463\RECOVER_Adult\demographics\deceased\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby2\preg_covidsex_2\1\Inf\27\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Noninf\36\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vaccdt_8\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Noninf\12\
+\phs003463\RECOVER_Adult\demographics\enroll_date\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Noninf\30\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Noninf\36\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Noninf\15\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\1\Inf\42\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_seiz_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_liver_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cancerspec___18_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Inf\36\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\race___1\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_imm_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_transplant_type___1_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cancerspec___20_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Inf\18\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Noninf\3\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Noninf\9\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\3\Noninf\9\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Inf\30\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Inf\24\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\1\Inf\45\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Inf\12\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Inf\45\
+\phs003463\RECOVER_Adult\demographics\enroll_site_id\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Inf\12\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\race___6\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vaccdt_9\
+\phs003463\RECOVER_Adult\demographics\age_at_enrollment\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vaccothspec_5\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby2\preg_covidsex_2\1\Inf\9\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cancerspec___3_base\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\1\Inf\21\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\race___4\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby2\preg_covidsex_2\2\Inf\6\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_potsspec___4_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\spop___2\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_o2home_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_autoimmspec___4_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\rx_carelevel___1\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\nucleocapsid\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cns_type___3_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cns_type___1_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Inf\30\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\record_id\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_autoimmspec___8_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\enroll_dt\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Inf\9\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_transplant_type___4_base\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\1\Noninf\0\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\vacc_vaccdt_7\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Inf\39\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby2\pregfu_sex_2\1\Inf\9\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_clung_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\spop___99\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Noninf\30\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Noninf\18\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\2\Noninf\45\
+\phs003463\RECOVER_Adult\demographics\enroll_protocol\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby2\preg_covidsex_2\1\Inf\12\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Noninf\6\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\fvacc_index\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\1\Inf\3\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_autoimmspec___12_base\
+\phs003463\RECOVER_Adult\demographics\sex_at_birth\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\1\Inf\3\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby2\pregfu_sex_2\1\Inf\15\
+\phs003463\RECOVER_Adult\surveys\pregnancy_followup\pregfu_babies\pregfu_baby1\pregfu_sex_1\1\Noninf\15\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_move_type___7_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Noninf\9\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\1\Noninf\3\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_nmusc_type___4_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_autoimmspec___23_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cancerspec___21_base\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\1\Inf\27\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby2\preg_covidsex_2\1\Inf\21\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby2\preg_covidsex_2\1\Inf\33\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Noninf\6\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Noninf\42\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cancerspec___16_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_anxdep_base\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby1\preg_covidsex_1\2\Noninf\18\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_cvdspec___1_base\
+\phs003463\RECOVER_Adult\biostats_derived_core_proc\cc_stroke_type___4_base\
+\phs003463\RECOVER_Adult\pregnancy_outcomes\neonatal_delivery_and_outcome_form\Neonatal baseline data\ndo_sex\0\Noninf\9\
+\phs003463\RECOVER_Adult\surveys\pregnancy\preg_babies\preg_baby3\preg_covidsex_3\1\Noninf\36\
 \phs003017\BMI\
 \phs002988\BMI\
 \phs001215\pht008631\phv00397282\BMI\
