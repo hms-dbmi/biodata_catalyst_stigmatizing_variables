@@ -1,0 +1,181 @@
+---
+title: "Gold Standard Variable Identification, Round 2"
+output: html_notebook
+---
+
+Before running this notebook, the 3 stigvar curators (Simran, Emily, and Alba) had been provided with the fill RECOVER Pediatric data dictionary. 
+They began categorizing the variables, but there were too many variables to manually curate and there were many duplicates (due to the same variable being on different forms, etc).
+The goal of this notebook is to: 
+1. Read in the first round of categorization results from each curator
+2. Consolidate the data dictionary to remove duplicates, have each variable appear once
+3. Save the variables that have not yet been categorized, for the curators to review
+4. Identify cases where the same curator may have categorized a variable inconsistently (if it appeared more than once)
+5. Consolidate the final results
+
+
+### Read in results from first round of categorization
+```{r}
+simran <- read.csv('Gold Standard StigVar Categorization - Simran - RECOVER Pediatric.csv')
+emily <- read.csv('Gold Standard StigVar Categorization - Emily - RECOVER Pediatric.csv')
+alba <- read.csv('Gold Standard StigVar Categorization - Alba - RECOVER Pediatric.csv')
+library(tidyverse)
+```
+
+### Curator 1: Summarize data dictionary to remove duplicates. 
+Save variables that still need to be categorized. 
+```{r}
+simran_clean<- simran %>%
+  mutate(CleanName = str_trim(str_replace(Variable.Name, "\\s*\\([^\\(]*\\)$", ""))) %>%
+  group_by(CleanName) %>%
+  summarise(AllValues = paste(unique(Values), collapse = "; "),
+            Categories = paste(unique(StigVar.Category), collapse = "; ")) %>%
+  ungroup()
+
+simran_toreview <- simran_clean %>%
+  filter(Categories == '')
+
+write.csv(simran_toreview, 'simrantoreview.csv')
+
+```
+
+### Curator 2: Summarize data dictionary to remove duplicates. 
+Save variables that still need to be categorized. 
+```{r}
+emily_clean<- emily %>%
+  mutate(CleanName = str_trim(str_replace(Variable.Name, "\\s*\\([^\\(]*\\)$", ""))) %>%
+  group_by(CleanName) %>%
+  summarise(AllValues = paste(unique(Values), collapse = "; "),
+            Categories = paste(unique(StigVar.Category), collapse = "; ")) %>%
+  ungroup()
+
+emily_toreview <- emily_clean %>%
+  filter(Categories == '')
+
+write.csv(emily_toreview, 'emilytoreview.csv')
+
+```
+
+### Curator 3: Summarize data dictionary to remove duplicates. 
+Save variables that still need to be categorized. 
+```{r}
+alba_clean<- alba %>%
+  mutate(CleanName = str_trim(str_replace(Variable.Name, "\\s*\\([^\\(]*\\)$", ""))) %>%
+  group_by(CleanName) %>%
+  summarise(AllValues = paste(unique(Values), collapse = "; "),
+            Categories = paste(unique(StigVar.Category), collapse = "; ")) %>%
+  ungroup()
+
+alba_toreview <- alba_clean %>%
+  filter(Categories == '')
+
+write.csv(alba_toreview, 'albatoreview.csv')
+
+```
+
+
+## The following steps were completed after the second round of manual review
+### Read in results from second round of categorization
+```{r}
+alba2 <- read.csv('Gold Standard StigVar Categorization - Alba - RECOVER Pediatric Round 2.csv')
+emily2 <- read.csv('Gold Standard StigVar Categorization - Emily - RECOVER Pediatric Round 2.csv')
+simran2 <- read.csv('Gold Standard StigVar Categorization - Simran - RECOVER Pediatric Round 2.csv')
+
+```
+
+### Expand the variables to cover the complete data dictionary and merge the 3 curators results together
+```{r}
+original <- alba %>% 
+  mutate(CleanName = str_trim(str_replace(Variable.Name, "\\s*\\([^\\(]*\\)$", ""))) %>%
+  select(Study, Variable.Name, CleanName, Variable.Description, Values)
+
+alba2_combined <- rbind(alba_clean %>%
+                          filter(Categories != '') %>%
+                          select(CleanName, Categories),
+                        alba2 %>% 
+                          select(CleanName, Categories)) %>%
+  mutate(Categories_alba = str_trim(gsub(';', '', Categories))) 
+
+emily2_combined <- rbind(emily_clean %>%
+                          filter(Categories != '') %>%
+                          select(CleanName, Categories),
+                        emily2 %>% 
+                          select(CleanName, Categories)) %>%
+  mutate(Categories_emily = str_trim(gsub(';', '', Categories))) 
+
+simran2_combined <- rbind(simran_clean %>%
+                          filter(Categories != '') %>%
+                          select(CleanName, Categories),
+                        simran2 %>% 
+                          select(CleanName, Categories)) %>%
+  mutate(Categories_simran = str_trim(gsub(';', '', Categories))) 
+
+combined <- original %>%
+  left_join(alba2_combined %>% select(CleanName, Categories_alba)) %>%
+  left_join(emily2_combined %>% select(CleanName, Categories_emily)) %>%
+  left_join(simran2_combined %>% select(CleanName, Categories_simran)) 
+
+
+```
+
+### Flag disagreements
+Disagreements refer to differences between the curators' results
+```{r}
+agreement_score <- combined %>%
+  rowwise() %>%
+  mutate(agreement = n_distinct(c_across(c(Categories_alba, Categories_emily, Categories_simran)))) 
+
+disagree <- agreement_score %>%
+  filter(agreement > 1)
+
+
+```
+
+###Flag variables with multiple categories for follow up
+This refers to when the same curator put different categories for the same variable in the first round
+Save combined results for group review between all 3 curators
+```{r}
+cats <- c('Direct or Surrogate Identifiers of Legal Status', 
+          'Identifier',
+          'Illicit Drug Use History',
+          'Intellectual Achievement / Ability / Educational Attainment',
+          'Mental Health Diagnoses / History / Treatment', 
+          'Not Stigmatizing', 
+          'Sexual History',
+          'Sexually Transmitted Disease Diagnoses / History / Treatment')
+
+review <- agreement_score %>%
+  mutate(multiple_categories = (!Categories_alba %in% cats) | (!Categories_emily %in% cats) | (!Categories_simran %in% cats))
+
+write.csv(review %>% select(-CleanName), 'forgroupreview.csv')
+
+```
+## The following steps were completed after the group review
+After group review 
+Verify that all disagreements have been settled
+Save final results
+```{r}
+df <- read.csv('group review - forgroupreview.csv')
+
+df2 <- df %>%
+  mutate(reconciliation2 = ifelse(reconciliation != '', reconciliation, 
+                                  ifelse((Categories_alba == Categories_emily) & (Categories_emily == Categories_simran), Categories_simran, 'DISAGREE')))
+table(df2$reconciliation2)
+
+help <- df2 %>% filter(reconciliation2 == 'DISAGREE')
+
+final <- df2 %>%
+  select(Study, Variable.Name, Variable.Description, Values, Category = reconciliation2)
+
+write.csv(final, 'final_goldstandard_variables.csv')
+
+```
+
+
+
+
+
+
+
+
+
+
