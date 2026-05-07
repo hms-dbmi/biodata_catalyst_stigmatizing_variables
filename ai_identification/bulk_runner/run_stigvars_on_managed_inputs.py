@@ -1,16 +1,4 @@
 #!/usr/bin/env python3
-# Step 1: The user will have exported their AWS access variables on the terminal runnning this script.
-## Exported variables on terminal are AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, AWS_SESSION_TOKEN
-# Step 2: Read input csv (passed as an argument)
-# First row is header. Read columns by name
-# Step 3: Download var.tsv for each study from 73 bucket
-# 73 bucket is = s3://avillach-73-bdcatalyst-etl/
-# Path to var.tsv = s3://avillach-73-bdcatalyst-etl/dictionary/${datasetId}/vars.tsv
-## datasetId = Study Identifier in "BDC Managed Inputs.csv"
-## Place each file in a directory "./{Study Identifier}/vars.tsv" to be processed later
-# Step 7: run the stig_id_ai.py against the vars.tsv for each study to update the concepts to remove
-## Open Question: Does the concept to remove need to be uploaded or is it automatically pulled by the ETL?
-
 from __future__ import annotations
 
 import argparse
