@@ -3,16 +3,16 @@ MANAGED_CSV  := Managed_Inputs.csv
 S3_CSV_URI   := s3://avillach-73-bdcatalyst-etl/general/resources/Managed_Inputs.csv
 RUNNER       := run_stigvars_on_managed_inputs.py
 
+.DEFAULT_GOAL := help
+
 .PHONY: all install fetch run run-study commit-msg clean help
 
-all: fetch run commit-msg  ## Fetch inputs, run the classifier, and print a commit message (default)
+all: clean fetch run commit-msg  ## Clean, fetch inputs, run the classifier, and print a commit message
 
 install:  ## Install Python dependencies
 	$(PYTHON) -m pip install boto3 pandas numpy
 
-fetch: $(MANAGED_CSV)  ## Download Managed_Inputs.csv from S3
-
-$(MANAGED_CSV):
+fetch:  ## Download Managed_Inputs.csv from S3 (always re-downloads)
 	aws s3 cp $(S3_CSV_URI) $(MANAGED_CSV)
 
 run: $(MANAGED_CSV)  ## Run classifier against all ready studies in Managed_Inputs.csv
