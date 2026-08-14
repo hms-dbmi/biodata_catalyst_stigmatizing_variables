@@ -73,7 +73,7 @@ IDENT = [
     # Direct participant identifiers
     "participant id", "subject id", "study id", "mrn",
     "medical record number", "family id", "identifier", "barcode",
-    "patient id", "patient number", "chart number", "encounter id", "record number",
+    "patient id", "patient number", "chart number", "encounter id", "record number", "newid", "sampid" , "new_id", "samp_id", "rand_id", "randid",
     # Name components
     "name", "first name", "last name", "initials",
     # Contact / location PII
@@ -143,7 +143,7 @@ DRUGS = [
 ]
 
 STD = [
-    "hiv", "aids", "syphilis", "gonorrhea", "chlamydia", "hpv", "herpes",
+    "hiv", "aids", "syphilis", "gonorrhea", "chlamydia", "hpv", "herpes", "herpesvirus",
     "sti", "std", "antiviral", "antiretroviral", "prep",
     "postexposure prophylaxis", "pep", "std screen", "std test", "sti screen",
     "sti test", "contact tracing", "partner notification", "cervical biopsy",
@@ -163,7 +163,7 @@ LEGAL = [
     "undocumented", "deport", "arrest", "charge", "conviction", "incarceration",
     "parole", "probation", "court record", "work authorization", "work permit",
     "green card", "denied housing", "denied employment", "marital status",
-    "married", "divorced",
+    "married", "divorced", "marriage",
 ]
 
 # Known-safe "date" compound phrases — study constructs, not PII identifiers.
