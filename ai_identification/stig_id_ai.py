@@ -73,7 +73,7 @@ IDENT = [
     # Direct participant identifiers
     "participant id", "subject id", "study id", "mrn",
     "medical record number", "family id", "identifier", "barcode",
-    "patient id", "patient number", "chart number", "encounter id", "record number", "newid", "sampid" , "new_id", "samp_id", "rand_id", "randid",
+    "patient id", "patient number", "chart number", "encounter id", "record number", "newid", "sampid" , "new_id", "samp_id", "rand_id", "randid", "sample id",
     # Name components
     "name", "first name", "last name", "initials",
     # Contact / location PII
