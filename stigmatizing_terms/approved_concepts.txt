@@ -1,4 +1,416 @@
+\phs001119\pht013308\phv00528706\AGE_DERV\
+\phs001119\pht013308\phv00528868\PRED_FVC_BLHT\
+\phs001119\pht013308\phv00528810\MRC01\
+\phs001119\pht013308\phv00528865\PRED_FEV1FVC_BLHT\
+\phs001119\pht013308\phv00528864\PRED_FEV1FVC\
+\phs001119\pht013308\phv00528867\PRED_FVC\
+\phs001119\pht013308\phv00528866\PRED_FEV1_BLHT\
+\phs001119\pht013308\phv00528863\PRED_FEV1\
+\phs001119\pht013308\phv00528869\PRED_PEFR\
+\phs001119\pht013308\phv00528861\PRED_FEF2575\
+\phs001119\pht013308\phv00528862\PRED_FEF2575_BLHT\
+\phs001119\pht013308\phv00528870\PRED_PEFR_BLHT\
+\phs001119\pht013308\phv00528799\LLN_FEV1_BLHT\
+\phs001119\pht013308\phv00528804\LLN_PEFR\
+\phs001119\pht013308\phv00528801\LLN_FEV1_FVC_BLHT\
+\phs001119\pht013308\phv00528796\LLN_FEF2575\
+\phs001119\pht013308\phv00528800\LLN_FEV1_FVC\
+\phs001119\pht013308\phv00528798\LLN_FEV1\
+\phs001119\pht013308\phv00528948\TOTALVOL_ULN\
+\phs001119\pht013308\phv00528803\LLN_FVC_BLHT\
+\phs001119\pht013308\phv00528802\LLN_FVC\
+\phs001119\pht013308\phv00528797\LLN_FEF2575_BLHT\
+
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\noninfected\0\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\noninfected\3\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\noninfected\18\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\noninfected\39\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\noninfected\36\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\noninfected\24\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\noninfected\57\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\noninfected\27\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\noninfected\15\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\noninfected\48\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\noninfected\21\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\noninfected\54\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\noninfected\42\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\noninfected\12\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\noninfected\45\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\noninfected\33\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\noninfected\66\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\noninfected\9\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\noninfected\60\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\noninfected\30\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\noninfected\63\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\noninfected\51\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\noninfected\6\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\infected\54\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\infected\66\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\infected\3\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\infected\30\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\infected\42\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\infected\72\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\infected\60\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\infected\18\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\infected\9\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\infected\36\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\infected\48\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\infected\12\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\infected\24\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\infected\21\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\infected\33\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\infected\63\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\infected\51\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\infected\6\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\infected\0\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\infected\27\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\infected\39\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\infected\69\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\infected\15\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\infected\45\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\snore\infected\57\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\noninfected\6\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\noninfected\39\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\noninfected\21\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\noninfected\33\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\noninfected\45\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\noninfected\57\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\noninfected\69\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\noninfected\15\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\noninfected\27\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\noninfected\0\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\noninfected\51\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\noninfected\63\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\noninfected\9\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\noninfected\18\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\noninfected\42\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\noninfected\54\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\noninfected\66\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\noninfected\12\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\noninfected\24\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\noninfected\36\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\noninfected\48\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\noninfected\60\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\noninfected\3\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\noninfected\30\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\infected\0\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\infected\36\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\infected\48\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\infected\12\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\infected\minus3\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\infected\24\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\infected\18\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\infected\6\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\infected\51\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\infected\9\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\infected\21\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\infected\33\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\infected\63\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\infected\69\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\infected\15\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\infected\45\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\infected\3\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\infected\57\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\infected\27\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\infected\39\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\infected\72\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\infected\60\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\infected\54\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\infected\66\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\infected\30\
+\phs003463\RECOVER_Adult\biostats_derived\symptoms\ps_sleepapnea___now\infected\42\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Noninf\0\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Noninf\3\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Noninf\6\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Noninf\30\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Noninf\42\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Noninf\9\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Noninf\12\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Noninf\45\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Noninf\24\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Noninf\21\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Noninf\33\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Noninf\27\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Noninf\39\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Noninf\36\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Noninf\15\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Noninf\48\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Noninf\18\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Inf\30\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Inf\21\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Inf\42\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Inf\12\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Inf\45\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Inf\33\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Inf\36\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Inf\24\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Inf\27\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Inf\15\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Inf\48\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Inf\18\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Inf\0\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Inf\39\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Inf\3\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Inf\6\
+\phs003463\RECOVER_Adult\surveys\pasc_symptoms\sslp\snore\Inf\9\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Inf\30\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Inf\21\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Inf\42\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Inf\12\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Inf\45\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Inf\33\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Inf\36\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Inf\24\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Inf\3\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Inf\0\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Inf\6\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Inf\9\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Inf\27\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Inf\15\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Inf\48\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Inf\18\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Inf\39\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Noninf\42\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Noninf\6\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Noninf\30\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Noninf\3\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Noninf\24\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Noninf\12\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Noninf\45\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Noninf\33\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Noninf\21\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Noninf\39\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Noninf\27\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Noninf\15\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Noninf\36\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Noninf\9\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleepapneadt\Noninf\18\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Noninf\21\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Noninf\42\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Noninf\30\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Noninf\3\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Noninf\36\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Noninf\24\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Noninf\12\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Noninf\45\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Noninf\33\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Noninf\18\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Noninf\39\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Noninf\27\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Noninf\15\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Noninf\9\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Noninf\6\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Inf\15\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Inf\48\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Inf\36\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Inf\39\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Inf\27\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Inf\9\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Inf\18\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Inf\0\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Inf\42\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Inf\30\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Inf\33\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Inf\21\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Inf\3\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Inf\24\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Inf\6\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Inf\12\
+\phs003463\RECOVER_Adult\surveys\comorbidities\slp\cc2_sleep\Inf\45\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_ah_index_total\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_ma_count\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_ahi_wdesatge4_total\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_cah_count\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_oah_index_nonsupine\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_oah_count\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_ah_count\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_a_index_nonrem\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_ca_index_total\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_ah_index_rem\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_oa_count\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_oa_index_nonrem\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_ca_index_supine\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_ca_index_nonsupine\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_a_index_supine\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_ah_index_supine\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_cah_index_nonrem\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_oah_index_nonrem\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_ah_index_nonsupine\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_ma_index_nonsupine\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_oah_index_total\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_a_index_rem\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_oa_index_total\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_ca_count\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_a_count\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_cah_index_nonsupine\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_cah_index_total\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_cah_index_supine\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_ah_index_nonrem\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_ca_index_nonrem\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_oah_index_supine\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_ma_index_total\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_oa_index_nonsupine\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_ma_index_rem\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_cah_index_rem\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_oa_index_rem\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_a_index_nonsupine\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_a_index_total\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_oa_index_supine\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_ma_index_nonrem\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_ca_index_rem\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\psg_data\Nox PSG Report Variables\psg_oah_index_rem\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\hsat_data\Nox HSAT Report Variables\hsat_oa_index_supine\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\hsat_data\Nox HSAT Report Variables\hsat_ma_count\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\hsat_data\Nox HSAT Report Variables\hsat_ma_index_nonsupine\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\hsat_data\Nox HSAT Report Variables\hsat_ca_index_supine\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\hsat_data\Nox HSAT Report Variables\hsat_ma_index_supine\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\hsat_data\Nox HSAT Report Variables\hsat_a_index_total\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\hsat_data\Nox HSAT Report Variables\hsat_oa_index_nonsupine\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\hsat_data\Nox HSAT Report Variables\hsat_ma_index_total\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\hsat_data\Nox HSAT Report Variables\hsat_a_count\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\hsat_data\Nox HSAT Report Variables\hsat_ca_index_nonsupine\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\hsat_data\Nox HSAT Report Variables\hsat_oa_count\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\hsat_data\Nox HSAT Report Variables\hsat_ca_index_total\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\hsat_data\Nox HSAT Report Variables\hsat_a_index_supine\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\hsat_data\Nox HSAT Report Variables\hsat_oa_index_total\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\hsat_data\Nox HSAT Report Variables\hsat_a_index_nonsupine\
+\phs003463\RECOVER_Adult\flder_tier2\home_sleep\sleep_reading_center\RECOVER_Adult_Sleep_Import\hsat_data\Nox HSAT Report Variables\hsat_ca_count\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Inf\9\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Inf\30\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Inf\6\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Inf\24\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Inf\36\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Inf\15\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Inf\48\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Inf\27\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Inf\42\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Inf\21\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Inf\33\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Inf\12\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Inf\45\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Inf\39\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Inf\18\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Noninf\21\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Noninf\33\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Noninf\30\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Noninf\42\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Noninf\6\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Noninf\15\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Noninf\12\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Noninf\9\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Noninf\24\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Noninf\18\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Noninf\27\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahidesat\Noninf\39\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Noninf\39\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Noninf\18\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Noninf\6\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Noninf\24\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Noninf\15\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Noninf\27\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Noninf\42\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Noninf\21\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Noninf\33\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Noninf\12\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Noninf\9\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Noninf\30\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Inf\15\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Inf\48\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Inf\36\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Inf\24\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Inf\9\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Inf\12\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Inf\45\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Inf\33\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Inf\21\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Inf\42\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Inf\30\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Inf\6\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Inf\18\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Inf\39\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_caindex\Inf\27\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Inf\9\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Inf\6\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Inf\33\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Inf\21\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Inf\24\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Inf\12\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Inf\45\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Inf\42\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Inf\30\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Inf\18\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Inf\15\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Inf\48\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Inf\36\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Inf\39\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Inf\27\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Noninf\27\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Noninf\15\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Noninf\18\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Noninf\39\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Noninf\30\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Noninf\21\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Noninf\42\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Noninf\12\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Noninf\33\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Noninf\24\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Noninf\6\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\psgsuum\facpsg_ahi\Noninf\9\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Inf\33\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Inf\12\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Inf\45\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Inf\24\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Inf\36\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Inf\15\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Inf\48\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Inf\27\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Inf\39\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Inf\18\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Inf\9\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Inf\6\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Inf\30\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Inf\42\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Inf\21\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Noninf\6\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Noninf\9\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Noninf\18\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Noninf\39\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Noninf\27\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Noninf\15\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Noninf\24\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Noninf\12\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Noninf\33\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Noninf\21\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Noninf\42\
+\phs003463\RECOVER_Adult\flder_tier3\facility_sleep_study\psg_quality_summary_form\Respiratory Event Reliability\facpsg_oai\Noninf\30\
+\phs003463\RECOVER_adult\EHR\Observation\ACT\Diagnosis\ICD9\V2_2018AA\A18090800\A8359006\A8363086\A8363085\A8348720\A8348721\A8340107\Apnea(S-321689)\
+\phs003463\RECOVER_adult\EHR\Observation\ACT\Diagnosis\ICD9\V2_2018AA\A18090800\A8359006\A8363086\A8363085\A8348697\A8342189\A8379033\Sleep apnea(S-313459)\
+\phs003463\RECOVER_adult\EHR\Observation\ACT\Diagnosis\ICD9\V2_2018AA\A18090800\A8359006\A8359018\A19384089\A8378871\A8378870\A8379078\Central sleep apnea syndrome(S-439794)\
+\phs003463\RECOVER_adult\EHR\Observation\ACT\Diagnosis\ICD9\V2_2018AA\A18090800\A8359006\A8359018\A19384089\A8378871\A8378870\A20881294\Obstructive sleep apnea syndrome(S-442588)\
+\phs003463\RECOVER_adult\EHR\ConditionOccurence\ACT\Diagnosis\ICD9\V2_2018AA\A18090800\A8359006\A8363086\A8363085\A8348697\A8342189\A8378805\Insomnia with sleep apnea(S-434172)\
+\phs003463\RECOVER_adult\EHR\ConditionOccurence\ACT\Diagnosis\ICD9\V2_2018AA\A18090800\A8359006\A8363086\A8363085\A8348697\A8342189\A8379033\Sleep apnea(S-313459)\
+\phs003463\RECOVER_adult\EHR\ConditionOccurence\ACT\Diagnosis\ICD9\V2_2018AA\A18090800\A8359006\A8363086\A8363085\A8348697\A8342189\A8378769\Hypersomnia with sleep apnea(S-439150)\
+\phs003463\RECOVER_adult\EHR\ConditionOccurence\ACT\Diagnosis\ICD9\V2_2018AA\A18090800\A8359006\A8363086\A8363085\A8348720\A8348721\A8340107\Apnea(S-321689)\
+\phs003463\RECOVER_adult\EHR\ConditionOccurence\ACT\Diagnosis\ICD9\V2_2018AA\A18090800\A8359006\A8359018\A19384089\A8378871\A8378870\A8379078\Central sleep apnea syndrome(S-439794)\
+\phs003463\RECOVER_adult\EHR\ConditionOccurence\ACT\Diagnosis\ICD9\V2_2018AA\A18090800\A8359006\A8359018\A19384089\A8378871\A8378870\A20881294\Obstructive sleep apnea syndrome(S-442588)\
+\phs003463\RECOVER_adult\EHR\ConditionOccurence\ACT\Diagnosis\ICD9\V2_2018AA\A18090800\A8359006\A8359018\A19384089\A8378871\A8378870\A8378937\Primary central sleep apnea(S-43022069)\
+\phs003463\RECOVER_adult\EHR\ConditionOccurence\ACT\Diagnosis\ICD9\V2_2018AA\A18090800\A8359006\A8359018\A19384089\A8378871\A8378870\A20883213\Idiopathic sleep related non-obstructive alveolar hypoventilation(S-40481299)\
+\phs003463\RECOVER_adult\EHR\ConditionOccurence\ACT\Diagnosis\ICD9\V2_2018AA\A18090800\A8359006\A8359018\A8359015\A8345203\A8345204\A20885214\Cholesterin granuloma of middle ear and mastoid(S-40482461)\
+conceptPath
+\phs003463\RECOVER_adult\EHR\Observation\ACT\Diagnosis\ICD9\V2_2018AA\A18090800\A18090759\A8362294\A12977012\A8359350\A8378041\Long-term current use of steroid(S-46272452)\
+\phs003463\RECOVER_adult\EHR\Observation\ACT\Diagnosis\ICD9\V2_2018AA\A18090800\A18090759\A8362294\A12977012\A8359350\A20882641\Long term current use of non-steroidal anti-inflammatory drug(S-37016169)\
 \phs003463\RECOVER_adult\EHR\Observation\Diagnoses\(Z00-Z99) Fact~rmj9\(Z77-Z99) Pers~uv8p\(Z79) Long ter~4lve\(Z79.5) Long t~94ll\(Z79.51) Long~v1et\Long-term current use of inhaled steroid(S-46272453)\
+\phs003463\RECOVER_adult\EHR\Measurement\ACT\UMLS_C0031437\SNOMED_3947185011\UMLS_C0242656\LABS_OF_INTEREST\A22778546\A18356247\Prothrombin time (PT)(S-3034426)\
+\phs003463\RECOVER_adult\EHR\ConditionOccurence\ACT\Diagnosis\ICD10\V2_2018AA\A20098492\A20161433\A20125599\A17775557\A27154687\Irritable bowel syndrome characterized by constipation(S-4261072)\
+\phs003463\RECOVER_adult\EHR\Observation\ACT\Diagnosis\ICD9\V2_2018AA\A18090800\A18090759\A8362294\A12977012\A8359350\A8365127\Long-term current use of antibiotic(S-46272734)\
+\phs003463\RECOVER_adult\EHR\Observation\ACT\Diagnosis\ICD9\V2_2018AA\A18090800\A18090759\A8362294\A12977012\A8359350\A20879736\Long-term current use of anticoagulant(S-46273937)\
+\phs003463\RECOVER_adult\EHR\Observation\ACT\Diagnosis\ICD9\V2_2018AA\A18090800\A18090759\A8362294\A12977012\A8359350\A8378376\Long-term current use of aspirin(S-36717001)\
+\phs003463\RECOVER_adult\EHR\Observation\ACT\Diagnosis\ICD9\V2_2018AA\A18090800\A18090759\A8362294\A12977012\A8359350\A8378377\Long-term current use of insulin(S-46272451)\
+\phs003463\RECOVER_adult\EHR\Observation\ACT\Diagnosis\ICD9\V2_2018AA\A18090800\A18090759\A8362294\A12977012\A8359350\A19384471\Long-term current use of bisphosphonates(S-37117119)\
+\phs003463\RECOVER_adult\EHR\ConditionOccurence\ACT\Diagnosis\ICD10\V2_2018AA\A20098492\A20161433\A20125599\A17775558\A17788284\A27152433\Chronic idiopathic constipation(S-4306923)\
+\phs003463\RECOVER_adult\EHR\ConditionOccurence\ACT\Diagnosis\ICD9\V2_2018AA\A18090800\A8359006\A8354357\A8360929\A8345537\A8339678\Chronic rhinitis(S-259848)\
+\phs003463\RECOVER_adult\EHR\ConditionOccurence\ACT\Diagnosis\ICD9\V2_2018AA\A18090800\A8359006\A8359014\A8359020\A8345514\A8345516\A8363775\Peripheral venous insufficiency(S-321596)\
+\phs003463\RECOVER_adult\EHR\ConditionOccurence\ACT\Diagnosis\ICD9\V2_2018AA\A18090800\A8359006\A8359018\A8360932\A8340460\A15575362\A15574956\Chronic intractable migraine without aura(S-43530652)\\phs003463\RECOVER_adult\EHR\Observation\Diagnoses\(Z00-Z99) Fact~rmj9\(Z77-Z99) Pers~uv8p\(Z79) Long ter~4lve\(Z79.5) Long t~94ll\(Z79.51) Long~v1et\Long-term current use of inhaled steroid(S-46272453)\
 \phs003739\H40SEX\
 \phs003739\B12SEX\
 \phs000402\pht002539\phv00181285\ESP_sex_selfreport\
