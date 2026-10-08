@@ -131973,7 +131973,6 @@ x
 \phs004837\publication_data\srf\vzvtnfdt_days\
 \phs004837\publication_data\tx8\randid\
 \phs004837\publication_data\tx8\tx8evldt_days\
-\phs002715\CONSENT\
 \phs002715\DBGAP_SAMPLE_ID\
 \phs002715\SAMPLE_ID\
 \phs002715\nsrr_cfs\clinical data\diagnostic studies\lung function\brachial reactivity\brcomm\
