@@ -101,9 +101,9 @@ IDENT = [
 MH_VERY_STRICT = [
     "agoraphobia", "phobia", "panic disorder", "generalized anxiety disorder",
     "social anxiety disorder", "anxiety", "panic", "gad",
-    "major depressive disorder", "mdd", "depression", "depressive", "mood disorder",
+    "major depressive disorder", "mdd", "depression", "depressive", "mood disorder", "depressed", "mood",
     "bipolar i disorder", "bipolar ii disorder", "bipolar", "mania", "manic",
-    "cyclothymic", "psychosis", "psychotic", "schizophrenia",
+    "cyclothymic", "psychosis", "psychotic", "schizophrenia", "feeling",
     "schizophreniform", "schizoaffective", "antisocial personality disorder",
     "personality disorder", "binge eating disorder", "binge-eating disorder",
     "binge eating", "eating disorder", "anorexia", "bulimia", "ptsd",
