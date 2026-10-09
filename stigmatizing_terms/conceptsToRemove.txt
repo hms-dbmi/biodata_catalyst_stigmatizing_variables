@@ -132034,3 +132034,24 @@ x
 \phs003543\nsrr_hchs\sleep questionnaires\sleep disturbance\women's health initiative insomnia rating scale (whiirs)\baseline\
 \phs003543\nsrr_hchs\sleep questionnaires\sleep habits\
 \phs003543\nsrr_hchs\sleep treatment\
+\phs002715\CONSENT\
+\phs002715\nsrr_cfs\administrative\whereqst\
+\phs002715\nsrr_cfs\clinical data\diagnostic studies\electrocardiogram\sugische\
+\phs002715\nsrr_cfs\general health\child health questionnaire (chq)\q10q3\
+\phs002715\nsrr_cfs\general health\child health questionnaire (chq)\q10q5a\
+\phs002715\nsrr_cfs\general health\child health questionnaire (chq)\q10q5i\
+\phs002715\nsrr_cfs\general health\child health questionnaire (chq)\q10q5o\
+\phs002715\nsrr_cfs\general health\child health questionnaire (chq)\q11q2\
+\phs002715\nsrr_cfs\general health\child health questionnaire (chq)\q11q6\
+\phs002715\nsrr_cfs\general health\child health questionnaire (chq)\q11q8\
+\phs002715\nsrr_cfs\general health\child health questionnaire (chq)\q6q1b\
+\phs002715\nsrr_cfs\harmonized\demographics\nsrr_age_gt89\
+\phs002715\nsrr_cfs\harmonized\lifestyle and behavioral health\nsrr_current_smoker\
+\phs002715\nsrr_cfs\harmonized\polysomnography\apnea-hypopnea indices\nsrr_ahi_hp3u\
+\phs002715\nsrr_cfs\harmonized\polysomnography\apnea-hypopnea indices\nsrr_ahi_hp4r\
+\phs003543\nsrr_hchs\administrative\study design\listnum\
+\phs003543\nsrr_hchs\clinical data\incident outcomes\hypertension_sueno\
+\phs003543\nsrr_hchs\harmonized\demographics\nsrr_age_gt89\
+\phs003543\nsrr_hchs\harmonized\lifestyle and behavioral health\nsrr_current_smoker\
+\phs003543\nsrr_hchs\harmonized\polysomnography\apnea-hypopnea indices\nsrr_rei_ap3n\
+\phs003543\nsrr_hchs\harmonized\polysomnography\apnea-hypopnea indices\nsrr_rei_ap4n\
