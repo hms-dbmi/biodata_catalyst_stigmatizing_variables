@@ -1,4 +1,5 @@
 """Unit tests for run_stigvars_on_managed_inputs.py. boto3 is mocked; no AWS access."""
+import io
 import sys
 import types
 import unittest
@@ -137,10 +138,22 @@ class MainTest(unittest.TestCase):
         for uri in ("s3://bucket/vars.tsv", "http://bucket/{dataset_id}", "s3:///{dataset_id}/vars.tsv"):
             with self.subTest(uri):
                 client = mock.Mock()
-                with self.assertRaises(SystemExit):
-                    _, _, make_client, _ = self.run_main(
-                        ["--vars-uri", uri, "--study-identifier", "phs123456"], client)
+                with mock.patch.object(runner.boto3, "client", create=True, return_value=client) as make_client, \
+                        mock.patch.object(sys, "argv", ["prog", "--vars-uri", uri, "--study-identifier", "phs123456"]):
+                    with self.assertRaises(SystemExit):
+                        runner.main()
+                make_client.assert_not_called()
                 client.download_file.assert_not_called()
+
+    def test_prints_the_source_used(self):
+        for argv, expected in (
+                (["--source", "in-boundary"],
+                 "vars.tsv source (--source in-boundary): s3://bdc-etl-data-d0d6191/data/dictionary/dictionary/{dataset_id}/vars.tsv"),
+                (["--vars-uri", "s3://other-bucket/p/{dataset_id}/vars.tsv"],
+                 "vars.tsv source (--vars-uri): s3://other-bucket/p/{dataset_id}/vars.tsv")):
+            with self.subTest(argv), mock.patch.object(sys, "stdout", new_callable=io.StringIO) as out:
+                self.run_main([*argv, "--study-identifier", "phs123456"])
+            self.assertIn(expected, out.getvalue())
 
     def test_invalid_study_identifier_exits_before_any_s3_call(self):
         client = mock.Mock()

@@ -154,8 +154,9 @@ Matching is case-insensitive and trims surrounding whitespace.
 | `./{study}/vars_FLAGGED.tsv` | Three-column TSV: `concept_path`, `is_stigmatizing`, `Category` |
 | `../stigmatizing_terms/conceptsToRemove.txt` | Canonical output — flagged concept paths appended here (deduplicated) |
 
-Studies whose `vars.tsv` is missing in S3, or whose identifier is not a plain
-token (letters, digits, `.`, `_`, `-`), are skipped and reported to stderr.
+Studies whose `vars.tsv` is missing in S3, or (in CSV mode) whose identifier is
+not a plain token (letters, digits, `.`, `_`, `-`), are skipped and reported to
+stderr. An invalid `--study-identifier` stops the run with an error before any S3 call.
 A summary (`done: processed=…, skipped=…`) is printed at the end.
 Re-running a study is safe — `conceptsToRemove.txt` will not gain duplicate entries.
 
