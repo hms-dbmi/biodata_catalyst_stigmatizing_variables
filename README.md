@@ -22,3 +22,5 @@ approved_concepts.txt - hpds paths of variables previously flagged as stigmatizi
 conceptsToRemove.txt - hpds paths of all stigmatizing variables removed from Open Access
 
 stigmatizing_terms.csv - terms that when found in a variable's description/id/values will cause it to be flagged as stigmatizing and removed from Open Access
+
+manual_tracking.csv - a list of variable concept paths that have been manually reviewed, and the decision made for each of them
